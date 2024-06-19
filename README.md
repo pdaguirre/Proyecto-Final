@@ -1,5 +1,7 @@
 ### PROYECTO FINAL BIOINFORMATICA
 
+Doménica Aguirre y Emilia Luzuriaga
+
 **1. Que tipo de datos quieres usar?**
 Queremos usar: secuencias de ADN de el gen mitocondrial 16S
 
