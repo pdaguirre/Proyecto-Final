@@ -25,7 +25,7 @@ You can include figures in this way: `![alt-text-to-figure](link to figure or pa
 
 
 You can include youtube videos this way:\   
-<iframe src="https://www.youtube.com/watch?v=6klY8bsymCY&ab_channel=ElReinoInfantil"data-external= "1" width="560" height="315"> </iframe> 
+<iframe src="https://www.youtube.com/watch?v=6klY8bsymCY&ab_channel=ElReinoInfantil" data-external= "1" width="560" height="315"> </iframe> 
 
 Or this way: 
 
