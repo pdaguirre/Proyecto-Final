@@ -11,9 +11,9 @@ Están en formato fasta
 **3. Que quieres hacer con esos datos?**
 Queremos recortar y aliinear las secuencias para comparar sitios homólogos, después elaborar un cronograma de diversificación para entender cuándo se separan evolutivamente nuestras especies de interés.
 
-## Tiempos de diversificación del grupo Dendropsophus leucophyllatus
+## Tiempos de diversificación del grupo *Dendropsophus leucophyllatus*
 
-El proyecto consiste en obtener un cronograma que evidencie los tiempos de diversificación de los hilidos del género Dendropsophus, específicamente del grupo D. leucophyllatus.
+El proyecto consiste en obtener un cronograma que evidencie los tiempos de diversificación de los hilidos del género *Dendropsophus*, específicamente del grupo *D. leucophyllatus*.
 
 
 **Género Dendropsophus**
