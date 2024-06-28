@@ -24,18 +24,13 @@ The script uses MAFFT to align the DNA sequences from different genes. MAFFT is 
 
 After aligning the sequences, the script uses IQ-TREE to create a diversification chronogram. IQ-TREE is a powerful tool for maximum likelihood-based phylogenetic inference, allowing us to estimate the divergence times of the species of interest.
 
-:\   
-<iframe width="958" height="539" src="https://www.youtube.com/embed/jvVJLemaQl8" title="IQTree Tutorial - Beginner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
 ### For Loop
 
 The process is carried out within a `for` loop, iterating through all sequences of the specified genes (16S, COI, CYTB, SIAH, RHO, TYR). For each gene, the script follows these steps:
 
-1. **Sequence Trimming**: The script trims DNA sequences to remove unwanted regions.
-2. **Sequence Alignment**: It uses MAFFT to align the trimmed sequences.
-3. **Phylogenetic Inference**: It uses IQ-TREE to infer a phylogenetic tree and estimate diversification times.
-4. **Chronogram Generation**: Based on the phylogenetic tree, a chronogram is generated showing species divergence times.
+1. **Sequence Alignment**: It uses MAFFT to align the trimmed sequences.
+2. **Phylogenetic Inference**: It uses IQ-TREE to infer a phylogenetic tree and estimate diversification times.
+3. **Chronogram Generation**: Based on the phylogenetic tree, a chronogram is generated showing species divergence times.
 
 ## Usage Instructions
 
@@ -50,6 +45,12 @@ For the script to work correctly, you need to have MAFFT and IQ-TREE programs in
 3. Place the `mafft` and `iqtree` programs in the same folder as the `.fasta` files.
 4. Edit the Script: Open Git Bash and navigate to the folder where the downloaded script is located using the command `cd /ruta/a/tu/carpeta/`.
 5. Run the script using the command `bash script.sh`.
+6. 6. Or... To give permissions for the script to execute, first use the command:
+`chmod +× script.sh`
+7. Then, name the fasta files that the script will use and it will start running the program: 
+`./script.sh dendro_16S.fasta dendro_COI.fasta dendro_CYTB.fasta dendro_ND1.fasta dendro_SIAH1.fasta dendro_RHO.fasta dendro_TYR.fasta dendro_POMC.fasta`
+
+And that's it!
 
 The script will handle the entire process automatically, from sequence alignment to creating the diversification chronogram for each gene.
 
