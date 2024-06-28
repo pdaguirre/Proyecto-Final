@@ -1,0 +1,401 @@
+IQ-TREE multicore version 2.2.0.7 COVID-edition for Mac OS X 64-bit built Aug 31 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Lotorres-mac5.PUCE.EDU.EC (SSE4.2, 10 GB RAM)
+Command: ./iqtree2 -s aln_dendro_COI.fasta -m GTR+R+I -bb 1000 -alrt 1000 -safe -pre result_dendro_COI.fasta
+Seed:    561446 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jun 27 12:25:21 2024
+Kernel:  Safe SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file aln_dendro_COI.fasta ... Fasta format detected
+Reading fasta file: done in 0.00259209 secs using 93.21% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00190496 secs using 78.69% CPU
+Alignment has 107 sequences with 644 columns, 329 distinct patterns
+271 parsimony-informative, 19 singleton sites, 354 constant sites
+                                                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000192881 secs using 89.69% CPU
+   1  ADN34704_D_rozenmani                               0.00%    passed     85.49%
+   2  ADN34705_D_rozenmani                               0.00%    passed     88.45%
+   3  ADN46832_D_rossalleni                              0.00%    passed     84.28%
+   4  ADN46851_D_haraldschultzi                          5.43%    passed     72.13%
+   5  ADN47562_D_haraldschultzi                          0.00%    passed     80.65%
+   6  ADN47584_D_riveroi                                 7.14%    passed     33.30%
+   7  CFBHnoVoucher                                      0.00%    passed     28.28%
+   8  CFBH13210_D_anceps                                 0.00%    passed     67.57%
+   9  CFBH14148_D_elianeae                               0.00%    passed     84.60%
+  10  CFBH14964_D_elegans                                0.47%    passed     80.54%
+  11  CFBH15203_D_berthalutzae                           0.00%    passed     95.61%
+  12  CFBH15869_D_soaresi                                0.00%    passed     32.44%
+  13  CFBH15885_D_minusculus                             0.00%    passed     91.45%
+  14  CFBH18575_D_soaresi                                0.00%    passed     29.99%
+  15  CFBH18721_D_bipunctatus                            0.00%    passed     86.49%
+  16  CFBH18764_D_branneri                               0.00%    passed     94.20%
+  17  CFBH18782_D_decipiens                              0.00%    passed     92.28%
+  18  CFBH18799_D_oliveirai                              0.00%    passed     17.10%
+  19  CFBH19472_D_haddadi                                0.00%    passed     54.47%
+  20  CFBH19993_D_nanus                                  4.97%    passed     87.11%
+  21  CFBH20829_D_branneri                               0.00%    passed     90.65%
+  22  CFBH21788_D_cachimbo                               0.00%    passed     42.69%
+  23  CFBH21936_D_jimi                                   0.00%    passed     27.19%
+  24  CFBH22025_D_microps                                6.83%    passed     74.33%
+  25  CFBH22226_D_pseudomeridianus                       0.00%    passed     99.15%
+  26  CFBH22231_D_pseudomeridianus                       0.00%    passed     99.15%
+  27  CFBH22236_D_meridianus                             4.81%    passed     97.02%
+  28  CFBH22239_D_meridianus                             0.00%    passed     99.03%
+  29  CFBH22999_D_anceps                                 0.00%    passed     43.85%
+  30  CFBH25705_D_jimi                                   0.00%    passed     19.55%
+  31  CFBH26580_D_oliveirai                              0.00%    passed     23.84%
+  32  CFBH27070_D_cruzi                                  0.00%    passed     69.10%
+  33  CFBH29140_D_minusculus                             0.00%    passed     97.09%
+  34  CFBH32780_D_cerradensis                            0.00%    passed     28.28%
+  35  CFBH32783_D_cerradensis                            6.83%    passed     19.26%
+  36  CFBHT11320_D_minusculus                            0.00%    passed     95.32%
+  37  CHUNB34455_D_cachimbo                              0.00%    passed     46.08%
+  38  CORBIDI5217_D_                                     0.00%    passed     86.80%
+  39  CORBIDI5235_D_koechlini_Madre_de_Dios_Tambopata    0.00%    passed     86.80%
+  40  CORBIDI6235_D_parviceps_Loreto_Requena             0.00%    passed      7.36%
+  41  CORBIDI8861_D_parviceps_SanMartin_Picota           0.00%    passed      9.83%
+  42  DZUFRJ10507_D_seniculus                            0.00%    passed     69.73%
+  43  FSFL1467_D_haddadi                                 0.00%    passed     76.97%
+  44  JF2320_D_decipiens                                 6.99%    passed     47.23%
+  45  KU215189_D_timbeba                                 0.00%    passed     31.48%
+  46  KU215190_D_timbeba                                 0.00%    passed     31.48%
+  47  KU215258_D_leali                                   0.00%    passed     80.75%
+  48  KU215300_D_schubarti                               0.00%    passed     37.61%
+  49  KU215306_D_schubarti                               0.00%    passed     49.27%
+  50  KU217613_D_shiwiarum                               7.14%    passed     87.22%
+  51  LBolsoni3486_D_elegans                             0.00%    passed     80.39%
+  52  MAP_T1770_D_melanargyreus                          1.55%    failed      3.48%
+  53  MAP_T1771_D_melanargyreus                          1.55%    failed      3.48%
+  54  MAP_T2436_D_nanus                                 13.04%    passed     81.24%
+  55  MAR1272_D_columbianus                              0.00%    passed     74.82%
+  56  MAR1807_D_norandinus                               0.00%    passed     69.79%
+  57  MAR467_D_virolinensis                              0.00%    failed      4.15%
+  58  MAR564_D_padreluna                                 0.00%    passed      5.96%
+  59  MAR832_D_stingi                                    0.00%    passed     97.75%
+  60  MHUA4063_D_ebraccatus                              0.00%    passed     64.66%
+  61  MHUA5439_D_subocularis                             0.00%    passed     44.50%
+  62  MHUA5883                                          32.61%    passed     12.04%
+  63  MHUA-A7336_D_manonegra                             0.00%    passed     50.26%
+  64  MHUA-A7337_D_manonegra                             0.00%    passed     50.26%
+  65  MNRJ35380_D_novaisi                                5.90%    passed     93.68%
+  66  MNRJ46746_D_dutrai                                 6.06%    passed     86.25%
+  67  MNRJ56788_D_rossalleni                             0.00%    passed     72.28%
+  68  MPEG18956                                          6.99%    passed     82.72%
+  69  MPEG27809_D_ozzyi                                  6.99%    passed     34.29%
+  70  MPEG27810_D_ozzyi                                  6.99%    passed     43.00%
+  71  MPEG28681_D_mapinguari                             0.00%    passed     90.10%
+  72  MPEG28682_D_mapinguari                             0.00%    passed     90.10%
+  73  MRC686_D_mathiassoni                               0.00%    passed     64.78%
+  74  MRC687_D_mathiassoni                               0.00%    passed     64.78%
+  75  MRC728_D_garagoensis                               0.00%    passed     10.93%
+  76  MRC737_D_stingi                                    0.00%    passed     94.72%
+  77  MZUSPFIELD1337_D_berthalutzae                      0.00%    passed     78.63%
+  78  PAG1019_D_parviceps                                2.48%    passed     97.32%
+  79  MAP_T2558_D_nanus                                  4.19%    passed     96.17%
+  80  PHV2558_D_araguaya                                 0.00%    passed     19.55%
+  81  PHV2560_D_araguaya                                 0.00%    passed     28.28%
+  82  PHV2588_D_araguaya                                 0.00%    passed     18.15%
+  83  PHV2664_D_anataliasiasi                            7.45%    passed     83.89%
+  84  PS429_D_marmoratus                                 0.00%    passed     94.27%
+  85  QCAZ32555_Dendr_parvi                              0.00%    passed     41.73%
+  86  QCAZ15519_Dendr_ebrac                              1.09%    passed     22.13%
+  87  QCAZ40847_D_ebraccatus_Playon_deSanFrancisco       0.00%    passed     17.54%
+  88  TG2531_D_pauiniensis                               0.00%    passed     45.41%
+  89  TG2632_D_bokermanni                                0.00%    passed     53.75%
+  90  TG2641_D_joannae                                   0.00%    passed     64.71%
+  91  TG2650_D_sarayacuensis                             1.86%    passed     92.43%
+  92  TG2780_D_rhodopeplus                               0.00%    passed     80.03%
+  93  TG2792_D_acreanus                                  0.00%    passed     60.01%
+  94  TG2812_D_xapuriensis                               0.00%    passed     89.35%
+  95  TG2819_D_shiwiarum                                 0.00%    passed     76.24%
+  96  UFMT6240_D_melanargyreus                           0.00%    passed      9.67%
+  97  UFMT6241_D_melanargyreus                           0.00%    passed     12.03%
+  98  URCAG767_D_studerae                                0.00%    passed     83.19%
+  99  URCAG768_D_studerae                                0.00%    passed     86.49%
+ 100  USPA25                                             2.95%    passed     71.76%
+ 101  USPA56                                             0.00%    passed     35.53%
+ 102  USPA75                                             0.00%    passed     87.84%
+ 103  USPU22                                             0.00%    passed     30.32%
+ 104  ZUEC17681_D_gaucheri                               0.00%    passed     41.98%
+ 105  ZUEC17682_D_gaucheri                               0.00%    passed     41.98%
+ 106  CORBIDI9614                                        0.31%    passed     69.20%
+ 107  SMF88389                                           4.66%    passed     75.82%
+****  TOTAL                                              1.47%  3 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: CFBH22231_D_pseudomeridianus is identical to CFBH22226_D_pseudomeridianus but kept for subsequent analysis
+NOTE: CORBIDI5235_D_koechlini_Madre_de_Dios_Tambopata is identical to CORBIDI5217_D_ but kept for subsequent analysis
+NOTE: KU215190_D_timbeba is identical to KU215189_D_timbeba but kept for subsequent analysis
+NOTE: MAP_T1771_D_melanargyreus is identical to MAP_T1770_D_melanargyreus but kept for subsequent analysis
+NOTE: MHUA-A7337_D_manonegra is identical to MHUA-A7336_D_manonegra but kept for subsequent analysis
+NOTE: MPEG28682_D_mapinguari is identical to MPEG28681_D_mapinguari but kept for subsequent analysis
+NOTE: MRC687_D_mathiassoni is identical to MRC686_D_mathiassoni but kept for subsequent analysis
+NOTE: ZUEC17682_D_gaucheri is identical to ZUEC17681_D_gaucheri but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000649929 secs using 77.09% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.016 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 561446)...
+
+NOTE: 5 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -17966.267
+2. Current log-likelihood: -16785.365
+3. Current log-likelihood: -16153.960
+4. Current log-likelihood: -16133.834
+5. Current log-likelihood: -16131.374
+6. Current log-likelihood: -16130.003
+7. Current log-likelihood: -16129.050
+8. Current log-likelihood: -16128.288
+9. Current log-likelihood: -16127.612
+10. Current log-likelihood: -16126.994
+11. Current log-likelihood: -16126.361
+12. Current log-likelihood: -16125.727
+13. Current log-likelihood: -16125.150
+14. Current log-likelihood: -16124.641
+15. Current log-likelihood: -16124.236
+16. Current log-likelihood: -16123.940
+17. Current log-likelihood: -16123.743
+18. Current log-likelihood: -16123.601
+19. Current log-likelihood: -16123.500
+Optimal log-likelihood: -16123.403
+Rate parameters:  A-C: 2.86217  A-G: 18.57899  A-T: 2.74618  C-G: 0.93700  C-T: 16.86426  G-T: 1.00000
+Base frequencies:  A: 0.220  C: 0.281  G: 0.185  T: 0.315
+Proportion of invariable sites: 0.538
+Site proportion and rates:  (0.101,0.189) (0.135,1.245) (0.171,2.794) (0.055,6.062)
+Parameters optimization took 19 rounds (4.648 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0830729 secs using 97.96% CPU
+Computing ML distances took 0.083462 sec (of wall-clock time) 0.081711 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000401974 secs using 86.32% CPU
+Constructing RapidNJ tree: done in 0.00104094 secs using 168.5% CPU
+Computing RapidNJ tree took 0.001520 sec (of wall-clock time) 0.002209 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -16070.547
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.102 second
+Computing log-likelihood of 98 initial trees ... 2.263 seconds
+Current best score: -16070.547
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.470849 secs using 99.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -16050.226
+Optimizing NNI: done in 0.728619 secs using 99.81% CPU
+Optimizing NNI: done in 0.811684 secs using 99.88% CPU
+Optimizing NNI: done in 0.631443 secs using 99.84% CPU
+Optimizing NNI: done in 0.775371 secs using 99.89% CPU
+Optimizing NNI: done in 0.553256 secs using 99.89% CPU
+Optimizing NNI: done in 0.684775 secs using 99.91% CPU
+Optimizing NNI: done in 0.861101 secs using 99.9% CPU
+Optimizing NNI: done in 0.821015 secs using 99.86% CPU
+Optimizing NNI: done in 0.707717 secs using 99.86% CPU
+Iteration 10 / LogL: -16071.555 / Time: 0h:0m:16s
+Optimizing NNI: done in 0.632766 secs using 99.91% CPU
+Optimizing NNI: done in 0.670786 secs using 99.86% CPU
+Optimizing NNI: done in 0.827823 secs using 99.9% CPU
+Optimizing NNI: done in 1.09835 secs using 99.94% CPU
+Optimizing NNI: done in 0.832601 secs using 99.92% CPU
+Optimizing NNI: done in 0.596838 secs using 99.9% CPU
+Optimizing NNI: done in 0.852689 secs using 99.9% CPU
+Optimizing NNI: done in 0.886417 secs using 99.91% CPU
+Optimizing NNI: done in 0.746317 secs using 99.84% CPU
+Optimizing NNI: done in 0.631557 secs using 99.93% CPU
+Iteration 20 / LogL: -16104.049 / Time: 0h:0m:24s
+Finish initializing candidate tree set (20)
+Current best tree score: -16050.226 / CPU time: 19.666
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.661553 secs using 99.81% CPU
+Optimizing NNI: done in 0.666073 secs using 99.75% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -16049.327
+Optimizing NNI: done in 0.787211 secs using 99.61% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -16047.960
+Optimizing NNI: done in 0.671748 secs using 99.46% CPU
+Optimizing NNI: done in 0.641682 secs using 99.46% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -16046.452
+Optimizing NNI: done in 0.694556 secs using 99.55% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -16045.140
+Optimizing NNI: done in 0.739779 secs using 99.49% CPU
+Optimizing NNI: done in 0.723251 secs using 99.71% CPU
+Optimizing NNI: done in 0.642319 secs using 99.83% CPU
+Optimizing NNI: done in 0.635192 secs using 98.45% CPU
+Iteration 30 / LogL: -16082.950 / Time: 0h:0m:33s (0h:1m:50s left)
+Optimizing NNI: done in 0.711144 secs using 98.87% CPU
+Optimizing NNI: done in 0.682885 secs using 99.65% CPU
+Optimizing NNI: done in 0.570327 secs using 99.96% CPU
+Optimizing NNI: done in 0.640131 secs using 99.85% CPU
+Optimizing NNI: done in 0.711842 secs using 99.87% CPU
+Optimizing NNI: done in 0.587471 secs using 99.46% CPU
+Optimizing NNI: done in 0.638389 secs using 99.37% CPU
+UPDATE BEST LOG-LIKELIHOOD: -16045.139
+Optimizing NNI: done in 0.790758 secs using 99.66% CPU
+Optimizing NNI: done in 0.644436 secs using 99.86% CPU
+Optimizing NNI: done in 0.593858 secs using 99.83% CPU
+Iteration 40 / LogL: -16045.668 / Time: 0h:0m:40s (0h:1m:28s left)
+Optimizing NNI: done in 0.618604 secs using 99.87% CPU
+Optimizing NNI: done in 0.674917 secs using 99.96% CPU
+Optimizing NNI: done in 0.51877 secs using 99.91% CPU
+Optimizing NNI: done in 0.653569 secs using 99.9% CPU
+Optimizing NNI: done in 0.652225 secs using 99.89% CPU
+Optimizing NNI: done in 0.643718 secs using 99.85% CPU
+Optimizing NNI: done in 0.679275 secs using 99.85% CPU
+Optimizing NNI: done in 0.504241 secs using 99.88% CPU
+Optimizing NNI: done in 0.594326 secs using 99.9% CPU
+Optimizing NNI: done in 0.555826 secs using 99.9% CPU
+Iteration 50 / LogL: -16047.902 / Time: 0h:0m:46s (0h:1m:11s left)
+Log-likelihood cutoff on original alignment: -16093.338
+Optimizing NNI: done in 0.68189 secs using 99.86% CPU
+Optimizing NNI: done in 0.629712 secs using 99.89% CPU
+Optimizing NNI: done in 0.64015 secs using 99.91% CPU
+Optimizing NNI: done in 0.678568 secs using 99.91% CPU
+Optimizing NNI: done in 0.580939 secs using 99.94% CPU
+Optimizing NNI: done in 0.568946 secs using 99.88% CPU
+Optimizing NNI: done in 0.697066 secs using 99.92% CPU
+Optimizing NNI: done in 0.56423 secs using 99.84% CPU
+Optimizing NNI: done in 0.583281 secs using 99.94% CPU
+Optimizing NNI: done in 0.7101 secs using 99.95% CPU
+Iteration 60 / LogL: -16045.569 / Time: 0h:0m:53s (0h:0m:59s left)
+Optimizing NNI: done in 0.571606 secs using 99.9% CPU
+Optimizing NNI: done in 0.762817 secs using 99.87% CPU
+Optimizing NNI: done in 0.68191 secs using 99.83% CPU
+Optimizing NNI: done in 0.511316 secs using 99.91% CPU
+Optimizing NNI: done in 0.711244 secs using 99.93% CPU
+Optimizing NNI: done in 0.493084 secs using 99.86% CPU
+Optimizing NNI: done in 0.588359 secs using 99.86% CPU
+Optimizing NNI: done in 0.613455 secs using 99.91% CPU
+Optimizing NNI: done in 0.825965 secs using 99.9% CPU
+Optimizing NNI: done in 0.556883 secs using 99.87% CPU
+Iteration 70 / LogL: -16046.685 / Time: 0h:0m:59s (0h:0m:48s left)
+Optimizing NNI: done in 0.521367 secs using 99.95% CPU
+Optimizing NNI: done in 0.615077 secs using 99.91% CPU
+Optimizing NNI: done in 0.797709 secs using 99.84% CPU
+Optimizing NNI: done in 0.551827 secs using 99.9% CPU
+Optimizing NNI: done in 0.557419 secs using 99.91% CPU
+Optimizing NNI: done in 0.60817 secs using 99.67% CPU
+Optimizing NNI: done in 0.627352 secs using 99.76% CPU
+Optimizing NNI: done in 0.691273 secs using 99.54% CPU
+Optimizing NNI: done in 0.715969 secs using 99.34% CPU
+Optimizing NNI: done in 0.57055 secs using 99.02% CPU
+Iteration 80 / LogL: -16045.493 / Time: 0h:1m:6s (0h:0m:38s left)
+Optimizing NNI: done in 0.639866 secs using 99.45% CPU
+Optimizing NNI: done in 0.468 secs using 99.51% CPU
+Optimizing NNI: done in 0.503852 secs using 99.55% CPU
+Optimizing NNI: done in 0.511607 secs using 99.53% CPU
+Optimizing NNI: done in 0.534858 secs using 99.57% CPU
+Optimizing NNI: done in 0.612233 secs using 99.51% CPU
+Optimizing NNI: done in 0.572747 secs using 99.58% CPU
+Optimizing NNI: done in 0.720821 secs using 99.58% CPU
+Optimizing NNI: done in 0.677904 secs using 99.62% CPU
+Optimizing NNI: done in 0.618688 secs using 99.7% CPU
+Iteration 90 / LogL: -16051.161 / Time: 0h:1m:12s (0h:0m:29s left)
+Optimizing NNI: done in 0.622177 secs using 99.65% CPU
+Optimizing NNI: done in 0.772275 secs using 99.69% CPU
+Optimizing NNI: done in 0.765355 secs using 99.65% CPU
+Optimizing NNI: done in 0.613079 secs using 99.62% CPU
+Optimizing NNI: done in 0.554075 secs using 99.48% CPU
+Optimizing NNI: done in 0.55971 secs using 99.62% CPU
+Optimizing NNI: done in 0.504737 secs using 99.52% CPU
+Optimizing NNI: done in 0.552766 secs using 99.61% CPU
+Optimizing NNI: done in 0.6682 secs using 99.63% CPU
+Optimizing NNI: done in 0.62805 secs using 99.59% CPU
+Iteration 100 / LogL: -16045.729 / Time: 0h:1m:18s (0h:0m:20s left)
+Log-likelihood cutoff on original alignment: -16093.338
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+Optimizing NNI: done in 0.755858 secs using 99.61% CPU
+Optimizing NNI: done in 0.611784 secs using 99.59% CPU
+Optimizing NNI: done in 0.708399 secs using 99.65% CPU
+Optimizing NNI: done in 0.568707 secs using 99.58% CPU
+Optimizing NNI: done in 0.636591 secs using 99.63% CPU
+Optimizing NNI: done in 0.639816 secs using 99.67% CPU
+Optimizing NNI: done in 0.553804 secs using 99.59% CPU
+Optimizing NNI: done in 0.614503 secs using 99.57% CPU
+Optimizing NNI: done in 0.555439 secs using 99.52% CPU
+Optimizing NNI: done in 0.596924 secs using 99.59% CPU
+Iteration 110 / LogL: -16045.601 / Time: 0h:1m:25s (0h:1m:10s left)
+Optimizing NNI: done in 0.683503 secs using 99.66% CPU
+Optimizing NNI: done in 0.749175 secs using 99.71% CPU
+Optimizing NNI: done in 0.564421 secs using 99.62% CPU
+Optimizing NNI: done in 0.69034 secs using 99.63% CPU
+Optimizing NNI: done in 0.77245 secs using 99.63% CPU
+Optimizing NNI: done in 0.71099 secs using 99.66% CPU
+Optimizing NNI: done in 0.638438 secs using 99.54% CPU
+Optimizing NNI: done in 0.600003 secs using 99.64% CPU
+Optimizing NNI: done in 0.808052 secs using 99.65% CPU
+Optimizing NNI: done in 0.765057 secs using 99.7% CPU
+Iteration 120 / LogL: -16045.902 / Time: 0h:1m:33s (0h:1m:2s left)
+Optimizing NNI: done in 0.603933 secs using 99.66% CPU
+Optimizing NNI: done in 0.531968 secs using 99.62% CPU
+Optimizing NNI: done in 0.774201 secs using 99.72% CPU
+Optimizing NNI: done in 0.656534 secs using 99.63% CPU
+Optimizing NNI: done in 0.73239 secs using 99.66% CPU
+Optimizing NNI: done in 0.576667 secs using 99.49% CPU
+Optimizing NNI: done in 0.506214 secs using 99.54% CPU
+TREE SEARCH COMPLETED AFTER 127 ITERATIONS / Time: 0h:1m:37s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -16045.139
+2. Current log-likelihood: -16045.114
+3. Current log-likelihood: -16045.095
+4. Current log-likelihood: -16045.076
+5. Current log-likelihood: -16045.061
+6. Current log-likelihood: -16045.045
+7. Current log-likelihood: -16045.031
+8. Current log-likelihood: -16045.016
+9. Current log-likelihood: -16045.004
+10. Current log-likelihood: -16044.990
+11. Current log-likelihood: -16044.979
+12. Current log-likelihood: -16044.968
+Optimal log-likelihood: -16044.955
+Rate parameters:  A-C: 2.78181  A-G: 18.71828  A-T: 2.57447  C-G: 0.89123  C-T: 17.08894  G-T: 1.00000
+Base frequencies:  A: 0.220  C: 0.281  G: 0.185  T: 0.315
+Proportion of invariable sites: 0.536
+Site proportion and rates:  (0.104,0.177) (0.146,1.291) (0.170,2.945) (0.044,6.574)
+Parameters optimization took 12 rounds (1.991 sec)
+BEST SCORE FOUND : -16044.955
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+1.394 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file result_dendro_COI.fasta.splits.nex
+Total tree length: 11.887
+
+Total number of iterations: 127
+CPU time used for tree search: 92.492 sec (0h:1m:32s)
+Wall-clock time used for tree search: 92.796 sec (0h:1m:32s)
+Total CPU time used: 101.368 sec (0h:1m:41s)
+Total wall-clock time used: 101.650 sec (0h:1m:41s)
+
+Computing bootstrap consensus tree...
+Reading input file result_dendro_COI.fasta.splits.nex...
+107 taxa and 732 splits.
+Consensus tree written to result_dendro_COI.fasta.contree
+Reading input trees file result_dendro_COI.fasta.contree
+Log-likelihood of consensus tree: -16045.508
+
+Analysis results written to: 
+  IQ-TREE report:                result_dendro_COI.fasta.iqtree
+  Maximum-likelihood tree:       result_dendro_COI.fasta.treefile
+  Likelihood distances:          result_dendro_COI.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          result_dendro_COI.fasta.splits.nex
+  Consensus tree:                result_dendro_COI.fasta.contree
+  Screen log file:               result_dendro_COI.fasta.log
+
+Date and Time: Thu Jun 27 12:27:03 2024

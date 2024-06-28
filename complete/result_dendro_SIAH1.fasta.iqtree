@@ -1,0 +1,496 @@
+IQ-TREE 2.2.0.7 COVID-edition built Aug 31 2022
+
+Input file name: aln_dendro_SIAH1.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 665990
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used least square dating (LSD) please also cite: 
+
+Thu-Hien To, Matthieu Jung, Samantha Lycett, Olivier Gascuel (2016)
+Fast dating using least-squares criteria and algorithms. Syst. Biol. 65:82-97.
+https://doi.org/10.1093/sysbio/syv068
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 91 sequences with 397 nucleotide sites
+Number of constant sites: 333 (= 83.8791% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 333 (= 83.8791% of all sites)
+Number of parsimony informative sites: 45
+Number of distinct site patterns: 105
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+R4
+
+Rate parameter R:
+
+  A-C: 3.0997
+  A-G: 14.1148
+  A-T: 2.5955
+  C-G: 0.0001
+  C-T: 13.1485
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2486
+  pi(C) = 0.263
+  pi(G) = 0.2303
+  pi(T) = 0.2581
+
+Rate matrix Q:
+
+  A    -1.112    0.1915    0.7634    0.1573
+  C    0.1809   -0.9777  5.409e-06    0.7968
+  G    0.8239  6.177e-06   -0.8845    0.0606
+  T    0.1515    0.8121   0.05409    -1.018
+
+Model of rate heterogeneity: Invar+FreeRate with 4 categories
+Proportion of invariable sites: 0.5745
+Site proportion and rates:  (0.1274,0.273) (0.1054,0.3264) (0.1071,2.981) (0.08557,7.147)
+
+ Category  Relative_rate  Proportion
+  0         0              0.5745
+  1         0.273          0.1274
+  2         0.3264         0.1054
+  3         2.981          0.1071
+  4         7.147          0.08557
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1305.8269 (s.e. 90.4093)
+Unconstrained log-likelihood (without tree): -1321.7278
+Number of free parameters (#branches + #model parameters): 186
+Akaike information criterion (AIC) score: 2983.6538
+Corrected Akaike information criterion (AICc) score: 3314.9109
+Bayesian information criterion (BIC) score: 3724.6660
+
+Total tree length (sum of branch lengths): 0.3158
+Sum of internal branch lengths: 0.1141 (36.1117% of tree length)
+
+WARNING: 42 near-zero internal branches (<0.0025) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'AY843739_Pseudis_minuta_' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
+                                          +**AY844869_D_sarayacuensis
+                                       +**| (0/70)
+                                       |  +**TG2650_D_sarayacuensis
+                                   +---| (82.1/98)
+                                   |   +---MPEG28681_D_mapinguari
+                                +**| (0/9)
+                                |  |   +**CFBH13294_D_elegans
+                                |  +---| (84.8/99)
+                                |      +---CFBH14964_D_elegans
+                             +**| (0/87)
+                             |  |  +-------MHUA-A7337_D_manonegra
+                             |  +**| (0/10)
+                             |     +---AY844822_D_ebraccatus
+                    +--------| (72.7/86)
+                    |        +---------------------H-12939_D_miyatai
+                +---| (78.6/54)
+                |   |               +**CFBH15869_D_soaresi
+                |   |           +---| (86.4/98)
+                |   |           |   +**CFBH18575_D_soaresi
+                |   |       +---| (86.1/99)
+                |   |       |   |  +**USPA5665_D_soaresi
+                |   |       |   +**| (0/75)
+                |   |       |      +**USPU2255_D_melanargyreus
+                |   +-------| (86.5/95)
+                |           |     +**DZUFRJ10507_D_seniculus
+                |           |  +**| (0/70)
+                |           |  |  +**MNRJ44702_D_seniculus
+                |           +**| (0/5)
+                |              |      +**MNRJ35380_D_novaisi
+                |              |  +---| (84.8/98)
+                |              |  |   +**USPA2516_D_novaisi
+                |              +**| (0/10)
+                |                 |          +**PS429_D_marmoratus
+                |                 |       +**| (0/79)
+                |                 |       |  +**USPA7523_D_marmoratus
+                |                 +-------| (92.7/99)
+                |                         +---TG2792_D_acreanus
+             +**| (0/6)
+             |  |                 +**CFBH14401_D_minutus
+             |  |              +**| (0/78)
+             |  |              |  +**CFBH19176_D_minutus
+             |  |      +-------| (94.4/98)
+             |  |      |       +-------CFBH24153_D_minutus
+             |  |   +**| (0/54)
+             |  |   |  |       +**MAR832_D_stingi
+             |  |   |  +-------| (92.7/99)
+             |  |   |          +**MRC737_D_stingi
+             |  +---| (84.6/84)
+             |      |   +**JMsn_D_xapuriensis
+             |      +---| (84.1/99)
+             |          +---TG2812_D_xapuriensis
+          +**| (0/12)
+          |  |            +---AY844797_D_anceps
+          |  |         +**| (0/20)
+          |  |         |  |                 +**KU215300_D_schubarti
+          |  |         |  +-----------------| (98.4/100)
+          |  |         |                    +**KU215306_D_schubarti
+          |  |      +**| (0/10)
+          |  |      |  |  +---CFBH18721_D_bipunctatus
+          |  |      |  +**| (0/5)
+          |  |      |     |           +**JAC22080_D_sartori
+          |  |      |     |   +-------| (91.6/99)
+          |  |      |     |   |       +**MZFC15824_D_robertmertensi
+          |  |      |     +---| (86.9/88)
+          |  |      |         |      +---KU215258_D_leali
+          |  |      |         |  +---| (84.8/99)
+          |  |      |         |  |   +**TG2641_D_joannae
+          |  |      |         +**| (0/30)
+          |  |      |            +---MHUA5883_D_microcephalus
+          |  |  +---| (84.9/62)
+          |  |  |   |                  +**CBF5926_D_juliani
+          |  |  |   |          +-------| (89.8/98)
+          |  |  |   |          |       +**NMP6V72799_D_juliani
+          |  |  |   |       +**| (0/12)
+          |  |  |   |       |  +---MRC687_D_mathiassoni
+          |  |  |   |   +---| (85.4/88)
+          |  |  |   |   |   |                            +---CFBHsn_D_jimi
+          |  |  |   |   |   |                         +**| (0/10)
+          |  |  |   |   |   |                         |  +---CFBH14148_D_elianeae
+          |  |  |   |   |   |                      +**| (0/5)
+          |  |  |   |   |   |                      |  |  +**CFBH14340_D_araguaya
+          |  |  |   |   |   |                      |  +**| (0/10)
+          |  |  |   |   |   |                      |     +**CFBH24352_D_rubicundulus
+          |  |  |   |   |   |                   +**| (0/19)
+          |  |  |   |   |   |                   |  |        +**CFBH21936_D_jimi
+          |  |  |   |   |   |                   |  |     +**| (0/24)
+          |  |  |   |   |   |                   |  |     |  +---PHV2560_D_araguaya
+          |  |  |   |   |   |                   |  |  +**| (0/16)
+          |  |  |   |   |   |                   |  |  |  +**PHV2588_D_araguaya
+          |  |  |   |   |   |                   |  +**| (0/3)
+          |  |  |   |   |   |                   |     +**CFBH6287_D_elianeae
+          |  |  |   |   |   |               +---| (86.9/94)
+          |  |  |   |   |   |               |   +---CHUNB34455_D_cachimbo
+          |  |  |   |   |   |            +**| (0/22)
+          |  |  |   |   |   |            |  +---CFBH22231_D_pseudomeridianus
+          |  |  |   |   |   |         +**| (0/30)
+          |  |  |   |   |   |         |  +**PHV2664_D_anataliasiasi
+          |  |  |   |   |   |     +---| (86.9/96)
+          |  |  |   |   |   |     |   |   +**CFBH18764_D_branneri
+          |  |  |   |   |   |     |   +---| (85.8/97)
+          |  |  |   |   |   |     |       +---CFBH27070_D_cruzi
+          |  |  |   |   |   |  +**| (0/4)
+          |  |  |   |   |   |  |  |  +-------CFBH15885_D_minusculus
+          |  |  |   |   |   |  |  +**| (0/13)
+          |  |  |   |   |   |  |     |           +**CFBH22226_D_pseudomeridianus
+          |  |  |   |   |   |  |     |       +---| (84.5/96)
+          |  |  |   |   |   |  |     |       |   +**CFBH22236_D_meridianus
+          |  |  |   |   |   |  |     +-------| (94/98)
+          |  |  |   |   |   |  |             +**CFBH7053_D_werneri
+          |  |  |   |   |   +**| (0/7)
+          |  |  |   |   |      +**CFBH20829_D_branneri
+          |  |  |   +---| (85.3/55)
+          |  |  |       |     +---CFBH19993_D_nanus
+          |  |  |       |  +**| (0/11)
+          |  |  |       |  |  +---TG2819_D_shiwiarum
+          |  |  |       +**| (0/4)
+          |  |  |          |  +**MJ1803_D_reichlei
+          |  |  |          +**| (0/45)
+          |  |  |             +**ZUEC17681_D_gaucheri
+          |  +**| (0/4)
+          |     |   +--------CFBH9376_D_nahdereri
+          |     +---| (88.3/63)
+          |         |               +**KU215189_D_timbeba
+          |         |  +------------| (94.8/100)
+          |         |  |            +**KU215190_D_timbeba
+          |         +**| (0/50)
+          |            |                 +---MAR1807_D_norandinus
+          |            +-----------------| (96.3/98)
+          |                              |  +**MHUA4801_D_bogerti
+          |                              +**| (0/89)
+          |                                 +**MHUA5740_D_columbianus
+      +---| (84.9/73)
+      |   |                                +**MAR467_D_virolinensis
+      |   |              +-----------------| (95.8/99)
+      |   |              |                 |   +**MAR564_D_padreluna
+      |   |              |                 +---| (83.5/88)
+      |   |              |                     +**MRC728_D_garagoensis
+      |   |          +---| (81.5/84)
+      |   |          |   +**WES2031_D_yaracuyanus
+      |   |      +---| (80.3/72)
+      |   |      |   |   +**MHUA5439_D_subocularis
+      |   |      |   +---| (79.1/94)
+      |   |      |       +---TG2632_D_bokermanni
+      |   |  +---| (78.6/52)
+      |   |  |   +-------TG2531_D_pauiniensis
+      |   +**| (0/16)
+      |      +------------MNRJ38453_D_giesleri
+   +**| (0/28)
+   |  |            +**MPEG27809_D_ozzyi
+   |  +------------| (96.1/99)
+   |               +**MPEG27810_D_ozzyi
++**| (0/55)
+|  |  +**CFBHT2208_D_ruschii
+|  +**| (0/67)
+|     +------------CFBHT2197_D_decipiens
+|
+|                         +---CFBH15203_D_berthalutzae
+|              +----------| (92.1/99)
+|              |          +**MZUSPFIELD1337_D_berthalutzae
+|   +----------| (88.6/86)
+|   |          +**JF2320_D_decipiens
++---| (80/89)
+|   |         +**CFBH18782_D_decipiens
+|   |      +**| (0/58)
+|   |      |  +**CFBH26580_D_oliveirai
+|   |  +---| (0/70)
+|   |  |   +**CFBH18799_D_oliveirai
+|   +**| (0/57)
+|      |   +**CFBH19472_D_haddadi
+|      +---| (85.2/98)
+|          +**FSFL1467_D_haddadi
+|
++-----------------------------------------------------------AY843739_Pseudis_minuta_
+
+Tree in newick format:
+
+((((((((((((AY844869_D_sarayacuensis:0.0000009696,TG2650_D_sarayacuensis:0.0000009696)0/70:0.0000009696,MPEG28681_D_mapinguari:0.0025620383)82.1/98:0.0025719400,(CFBH13294_D_elegans:0.0000009696,CFBH14964_D_elegans:0.0025765077)84.8/99:0.0025481768)0/9:0.0000009696,(MHUA-A7337_D_manonegra:0.0051638963,AY844822_D_ebraccatus:0.0025569635)0/10:0.0000021346)0/87:0.0000020721,H-12939_D_miyatai:0.0132569704)72.7/86:0.0052871230,(((CFBH15869_D_soaresi:0.0000009696,CFBH18575_D_soaresi:0.0000021290)86.4/98:0.0025382255,(USPA5665_D_soaresi:0.0000028433,USPU2255_D_melanargyreus:0.0000019966)0/75:0.0000024942)86.1/99:0.0025337715,((DZUFRJ10507_D_seniculus:0.0000009696,MNRJ44702_D_seniculus:0.0000009696)0/70:0.0000009696,((MNRJ35380_D_novaisi:0.0000020005,USPA2516_D_novaisi:0.0000009696)84.8/98:0.0025374215,((PS429_D_marmoratus:0.0000009696,USPA7523_D_marmoratus:0.0000009696)0/79:0.0000022295,TG2792_D_acreanus:0.0025460636)92.7/99:0.0051313239)0/10:0.0000023328)0/5:0.0000022544)86.5/95:0.0052414888)78.6/54:0.0025502292,((((CFBH14401_D_minutus:0.0000009696,CFBH19176_D_minutus:0.0000009696)0/78:0.0000024962,CFBH24153_D_minutus:0.0051780820)94.4/98:0.0051682136,(MAR832_D_stingi:0.0000009696,MRC737_D_stingi:0.0000009696)92.7/99:0.0051610254)0/54:0.0000019862,(JMsn_D_xapuriensis:0.0000020807,TG2812_D_xapuriensis:0.0025597231)84.1/99:0.0025782259)84.6/84:0.0025579218)0/6:0.0000009696,((((AY844797_D_anceps:0.0025548122,(KU215300_D_schubarti:0.0000022582,KU215306_D_schubarti:0.0000022443)98.4/100:0.0106662876)0/20:0.0000020919,(CFBH18721_D_bipunctatus:0.0025502284,((JAC22080_D_sartori:0.0000022129,MZFC15824_D_robertmertensi:0.0000022270)91.6/99:0.0051552802,((KU215258_D_leali:0.0025666456,TG2641_D_joannae:0.0000009696)84.8/99:0.0025600514,MHUA5883_D_microcephalus:0.0025549680)0/30:0.0000021927)86.9/88:0.0025563517)0/5:0.0000021828)0/10:0.0000022903,((((CBF5926_D_juliani:0.0000022325,NMP6V72799_D_juliani:0.0000022326)89.8/98:0.0051907968,MRC687_D_mathiassoni:0.0025603607)0/12:0.0000009696,(((((((((CFBHsn_D_jimi:0.0025344174,CFBH14148_D_elianeae:0.0025562773)0/10:0.0000009696,(CFBH14340_D_araguaya:0.0000009696,CFBH24352_D_rubicundulus:0.0000009696)0/10:0.0000009696)0/5:0.0000009696,(((CFBH21936_D_jimi:0.0000009696,PHV2560_D_araguaya:0.0028675462)0/24:0.0000009696,PHV2588_D_araguaya:0.0000009696)0/16:0.0000009696,CFBH6287_D_elianeae:0.0000009696)0/3:0.0000009696)0/19:0.0000009696,CHUNB34455_D_cachimbo:0.0025622521)86.9/94:0.0025383513,CFBH22231_D_pseudomeridianus:0.0025398250)0/22:0.0000021740,PHV2664_D_anataliasiasi:0.0000009696)0/30:0.0000021232,(CFBH18764_D_branneri:0.0000019615,CFBH27070_D_cruzi:0.0025368175)85.8/97:0.0025384069)86.9/96:0.0025436918,(CFBH15885_D_minusculus:0.0051845470,((CFBH22226_D_pseudomeridianus:0.0000022624,CFBH22236_D_meridianus:0.0000022621)84.5/96:0.0025399448,CFBH7053_D_werneri:0.0000022071)94/98:0.0051366424)0/13:0.0000022114)0/4:0.0000028214,CFBH20829_D_branneri:0.0000009696)0/7:0.0000009696)85.4/88:0.0025715062,((CFBH19993_D_nanus:0.0025456410,TG2819_D_shiwiarum:0.0025757801)0/11:0.0000009696,(MJ1803_D_reichlei:0.0000009696,ZUEC17681_D_gaucheri:0.0000009696)0/45:0.0000009696)0/4:0.0000021253)85.3/55:0.0025504766)84.9/62:0.0025561909,(CFBH9376_D_nahdereri:0.0052836482,((KU215189_D_timbeba:0.0000009696,KU215190_D_timbeba:0.0000009696)94.8/100:0.0078432345,(MAR1807_D_norandinus:0.0026061371,(MHUA4801_D_bogerti:0.0000009696,MHUA5740_D_columbianus:0.0000009696)0/89:0.0000025867)96.3/98:0.0105465291)0/50:0.0000020863)88.3/63:0.0025351661)0/4:0.0000022157)0/12:0.0000029057,(((((MAR467_D_virolinensis:0.0000021955,(MAR564_D_padreluna:0.0000009696,MRC728_D_garagoensis:0.0000009696)83.5/88:0.0025643327)95.8/99:0.0106475451,WES2031_D_yaracuyanus:0.0000020113)81.5/84:0.0025615496,(MHUA5439_D_subocularis:0.0000009696,TG2632_D_bokermanni:0.0025664721)79.1/94:0.0026426314)80.3/72:0.0025787086,TG2531_D_pauiniensis:0.0052328201)78.6/52:0.0026213690,MNRJ38453_D_giesleri:0.0078624510)0/16:0.0000019876)84.9/73:0.0025749509,(MPEG27809_D_ozzyi:0.0000009696,MPEG27810_D_ozzyi:0.0000009696)96.1/99:0.0078760552)0/28:0.0000027931,(CFBHT2208_D_ruschii:0.0000009696,CFBHT2197_D_decipiens:0.0079049782)0/67:0.0000020877)0/55:0.0000019709,(((CFBH15203_D_berthalutzae:0.0028995265,MZUSPFIELD1337_D_berthalutzae:0.0000009696)92.1/99:0.0064824708,JF2320_D_decipiens:0.0000021094)88.6/86:0.0065161577,(((CFBH18782_D_decipiens:0.0000028078,CFBH26580_D_oliveirai:0.0000009696)0/58:0.0000027745,CFBH18799_D_oliveirai:0.0000009696)0/70:0.0025931658,(CFBH19472_D_haddadi:0.0000021288,FSFL1467_D_haddadi:0.0000021430)85.2/98:0.0025765475)0/57:0.0000021958)80/89:0.0025682542,AY843739_Pseudis_minuta_:0.0349980102);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -1305.897753
+Robinson-Foulds distance between ML tree and consensus tree: 42
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                          +--AY844869_D_sarayacuensis
+                                       +--| (70)
+                                       |  +--TG2650_D_sarayacuensis
+                                   +---| (98)
+                                   |   +---MPEG28681_D_mapinguari
+                                +--| (32)
+                                |  |      +--CFBH13294_D_elegans
+                                |  |  +---| (99)
+                                |  |  |   +---CFBH14964_D_elegans
+                                |  +--| (44)
+                                |     +---AY844822_D_ebraccatus
+                             +--| (87)
+                             |  +-------MHUA-A7337_D_manonegra
+                    +--------| (86)
+                    |        +---------------------H-12939_D_miyatai
+                +---| (54)
+                |   |                     +--CFBH15869_D_soaresi
+                |   |                 +---| (98)
+                |   |                 |   +--CFBH18575_D_soaresi
+                |   |             +---| (99)
+                |   |             |   |  +--USPA5665_D_soaresi
+                |   |             |   +--| (75)
+                |   |             |      +--USPU2255_D_melanargyreus
+                |   |          +--| (53)
+                |   |          |  |   +--MNRJ35380_D_novaisi
+                |   |          |  +---| (98)
+                |   |          |      +--USPA2516_D_novaisi
+                |   |       +--| (64)
+                |   |       |  |  +--DZUFRJ10507_D_seniculus
+                |   |       |  +--| (70)
+                |   |       |     +--MNRJ44702_D_seniculus
+                |   +-------| (95)
+                |           |          +--PS429_D_marmoratus
+                |           |       +--| (79)
+                |           |       |  +--USPA7523_D_marmoratus
+                |           +-------| (99)
+                |                   +---TG2792_D_acreanus
+             +--| (7)
+             |  |            +---AY844797_D_anceps
+             |  |         +--| (20)
+             |  |         |  |                 +--KU215300_D_schubarti
+             |  |         |  +-----------------| (100)
+             |  |         |                    +--KU215306_D_schubarti
+             |  |      +--| (38)
+             |  |      |  |                                 +--CBF5926_D_juliani
+             |  |      |  |                         +-------| (98)
+             |  |      |  |                         |       +--NMP6V72799_D_juliani
+             |  |      |  |                      +--| (14)
+             |  |      |  |                      |  +-------CFBH15885_D_minusculus
+             |  |      |  |                   +--| (11)
+             |  |      |  |                   |  +---MRC687_D_mathiassoni
+             |  |      |  |                +--| (22)
+             |  |      |  |                |  |                   +---CFBHsn_D_jimi
+             |  |      |  |                |  |                +--| (17)
+             |  |      |  |                |  |                |  |           +**CFBH14340_D_araguaya
+             |  |      |  |                |  |                |  |        +**|
+             |  |      |  |                |  |                |  |        |  +**CFBH25705_D_jimi
+             |  |      |  |                |  |                |  |     +--|
+             |  |      |  |                |  |                |  |     |  +**CFBH6740_D_rubicundulus
+             |  |      |  |                |  |                |  |  +--| (10)
+             |  |      |  |                |  |                |  |  |  +--CFBH24352_D_rubicundulus
+             |  |      |  |                |  |                |  +--| (2)
+             |  |      |  |                |  |                |     |        +--CFBH21936_D_jimi
+             |  |      |  |                |  |                |     |     +--| (24)
+             |  |      |  |                |  |                |     |     |  +---PHV2560_D_araguaya
+             |  |      |  |                |  |                |     |  +--| (16)
+             |  |      |  |                |  |                |     |  |  +--PHV2588_D_araguaya
+             |  |      |  |                |  |                |     +--| (3)
+             |  |      |  |                |  |                |        +--CFBH6287_D_elianeae
+             |  |      |  |                |  |             +--| (28)
+             |  |      |  |                |  |             |  +---CHUNB34455_D_cachimbo
+             |  |      |  |                |  |         +---| (94)
+             |  |      |  |                |  |         |   +---CFBH14148_D_elianeae
+             |  |      |  |                |  |      +--| (30)
+             |  |      |  |                |  |      |  |  +---CFBH22231_D_pseudomeridianus
+             |  |      |  |                |  |      |  +--| (30)
+             |  |      |  |                |  |      |     +--PHV2664_D_anataliasiasi
+             |  |      |  |                |  |  +---| (96)
+             |  |      |  |                |  |  |   |   +--CFBH18764_D_branneri
+             |  |      |  |                |  |  |   +---| (97)
+             |  |      |  |                |  |  |       +---CFBH27070_D_cruzi
+             |  |      |  |                |  +--| (25)
+             |  |      |  |                |     |              +**CFBH22226_D_pseudomeridianus
+             |  |      |  |                |     |           +--|
+             |  |      |  |                |     |           |  +**CFBH22239_D_meridianus
+             |  |      |  |                |     |       +---| (96)
+             |  |      |  |                |     |       |   +--CFBH22236_D_meridianus
+             |  |      |  |                |     +-------| (98)
+             |  |      |  |                |             +--CFBH7053_D_werneri
+             |  |      |  |            +---| (88)
+             |  |      |  |            |   +--CFBH20829_D_branneri
+             |  |      |  |         +--| (31)
+             |  |      |  |         |  |     +**MJ1803_D_reichlei
+             |  |      |  |         |  |  +--|
+             |  |      |  |         |  |  |  +**ZUEC17682_D_gaucheri
+             |  |      |  |         |  +--| (45)
+             |  |      |  |         |     +--ZUEC17681_D_gaucheri
+             |  |      |  |      +--| (50)
+             |  |      |  |      |  +---CFBH19993_D_nanus
+             |  |      |  |  +---| (55)
+             |  |      |  |  |   +---TG2819_D_shiwiarum
+             |  |      |  +--| (38)
+             |  |      |     |              +--JAC22080_D_sartori
+             |  |      |     |      +-------| (99)
+             |  |      |     |      |       +--MZFC15824_D_robertmertensi
+             |  |      |     |   +--| (48)
+             |  |      |     |   |  |   +---KU215258_D_leali
+             |  |      |     |   |  +---| (99)
+             |  |      |     |   |      +--TG2641_D_joannae
+             |  |      |     +---| (88)
+             |  |      |         +---MHUA5883_D_microcephalus
+             |  |  +---| (62)
+             |  |  |   +---CFBH18721_D_bipunctatus
+             |  +--| (12)
+             |     |      +--------CFBH9376_D_nahdereri
+             |     |  +---| (63)
+             |     |  |   |               +--KU215189_D_timbeba
+             |     |  |   |  +------------| (100)
+             |     |  |   |  |            +--KU215190_D_timbeba
+             |     |  |   +--| (50)
+             |     |  |      |                 +---MAR1807_D_norandinus
+             |     |  |      +-----------------| (98)
+             |     |  |                        |  +--MHUA4801_D_bogerti
+             |     |  |                        +--| (89)
+             |     |  |                           +--MHUA5740_D_columbianus
+             |     +--| (19)
+             |        +------------MNRJ38453_D_giesleri
+          +--| (25)
+          |  |                 +--CFBH14401_D_minutus
+          |  |              +--| (78)
+          |  |              |  +--CFBH19176_D_minutus
+          |  |      +-------| (98)
+          |  |      |       +-------CFBH24153_D_minutus
+          |  |   +--| (54)
+          |  |   |  |       +--MAR832_D_stingi
+          |  |   |  +-------| (99)
+          |  |   |          +--MRC737_D_stingi
+          |  +---| (84)
+          |      |   +--JMsn_D_xapuriensis
+          |      +---| (99)
+          |          +---TG2812_D_xapuriensis
+      +---| (73)
+      |   |                            +---MAR467_D_virolinensis
+      |   |          +-----------------| (99)
+      |   |          |                 |  +--MAR564_D_padreluna
+      |   |          |                 +--| (88)
+      |   |          |                    +--MRC728_D_garagoensis
+      |   |       +--| (84)
+      |   |       |  +---WES2031_D_yaracuyanus
+      |   |   +---| (72)
+      |   |   |   |   +--MHUA5439_D_subocularis
+      |   |   |   +---| (94)
+      |   |   |       +---TG2632_D_bokermanni
+      |   +---| (52)
+      |       +-------TG2531_D_pauiniensis
+   +--| (28)
+   |  |            +--MPEG27809_D_ozzyi
+   |  +------------| (99)
+   |               +--MPEG27810_D_ozzyi
++--| (55)
+|  |  +--CFBHT2208_D_ruschii
+|  +--| (67)
+|     +------------CFBHT2197_D_decipiens
+|
+|                         +---CFBH15203_D_berthalutzae
+|              +----------| (99)
+|              |          +--MZUSPFIELD1337_D_berthalutzae
+|   +----------| (86)
+|   |          +--JF2320_D_decipiens
++---| (89)
+|   |        +--CFBH18782_D_decipiens
+|   |     +--| (58)
+|   |     |  +---CFBH26580_D_oliveirai
+|   |  +--| (70)
+|   |  |  +--CFBH18799_D_oliveirai
+|   +--| (57)
+|      |   +--CFBH19472_D_haddadi
+|      +---| (98)
+|          +--FSFL1467_D_haddadi
+|
++-----------------------------------------------------------AY843739_Pseudis_minuta_
+
+
+Consensus tree in newick format: 
+
+((((((((((((AY844869_D_sarayacuensis:0.0000022336,TG2650_D_sarayacuensis:0.0000022336)70:0.0000022336,MPEG28681_D_mapinguari:0.0025668356)98:0.0025768283,((CFBH13294_D_elegans:0.0000022336,CFBH14964_D_elegans:0.0025813041)99:0.0025529338,AY844822_D_ebraccatus:0.0025618225)44:0.0000022336)32:0.0000022336,MHUA-A7337_D_manonegra:0.0051739292)87:0.0000022336,H-12939_D_miyatai:0.0132837110)86:0.0052983576,(((((CFBH15869_D_soaresi:0.0000022336,CFBH18575_D_soaresi:0.0000022336)98:0.0025432084,(USPA5665_D_soaresi:0.0000022336,USPU2255_D_melanargyreus:0.0000022336)75:0.0000022336)99:0.0025388343,(MNRJ35380_D_novaisi:0.0000022336,USPA2516_D_novaisi:0.0000022336)98:0.0025424865)53:0.0000022336,(DZUFRJ10507_D_seniculus:0.0000022336,MNRJ44702_D_seniculus:0.0000022336)70:0.0000022336)64:0.0000022336,((PS429_D_marmoratus:0.0000022336,USPA7523_D_marmoratus:0.0000022336)79:0.0000022336,TG2792_D_acreanus:0.0025511016)99:0.0051416223)95:0.0052525595)54:0.0025546665,((((AY844797_D_anceps:0.0025619784,(KU215300_D_schubarti:0.0000022336,KU215306_D_schubarti:0.0000022336)100:0.0106958782)20:0.0000022336,(((((((((CBF5926_D_juliani:0.0000022336,NMP6V72799_D_juliani:0.0000022336)98:0.0052067127,CFBH15885_D_minusculus:0.0052008721)14:0.0000022336,MRC687_D_mathiassoni:0.0025684198)11:0.0000022336,((((((CFBHsn_D_jimi:0.0025432005,((((CFBH14340_D_araguaya:0.0000000000,CFBH25705_D_jimi:0.0000000000):0.0000000000,CFBH6740_D_rubicundulus:0.0000000000):0.0000022336,CFBH24352_D_rubicundulus:0.0000022336)10:0.0000022336,(((CFBH21936_D_jimi:0.0000022336,PHV2560_D_araguaya:0.0028775336)24:0.0000022336,PHV2588_D_araguaya:0.0000022336)16:0.0000022336,CFBH6287_D_elianeae:0.0000022336)3:0.0000022336)2:0.0000022336)17:0.0000022336,CHUNB34455_D_cachimbo:0.0025710166)28:0.0000022336,CFBH14148_D_elianeae:0.0025649951)94:0.0025469338,(CFBH22231_D_pseudomeridianus:0.0025483202,PHV2664_D_anataliasiasi:0.0000022336)30:0.0000022336)30:0.0000022336,(CFBH18764_D_branneri:0.0000022336,CFBH27070_D_cruzi:0.0025451495)97:0.0025468232)96:0.0025519568,(((CFBH22226_D_pseudomeridianus:0.0000000000,CFBH22239_D_meridianus:0.0000000000):0.0000022336,CFBH22236_D_meridianus:0.0000022336)96:0.0025479584,CFBH7053_D_werneri:0.0000022336)98:0.0051531771)25:0.0000022336)22:0.0000022336,CFBH20829_D_branneri:0.0000022336)88:0.0025792218,((MJ1803_D_reichlei:0.0000000000,ZUEC17682_D_gaucheri:0.0000000000):0.0000022336,ZUEC17681_D_gaucheri:0.0000022336)45:0.0000022336)31:0.0000022336,CFBH19993_D_nanus:0.0025532438)50:0.0000027485,TG2819_D_shiwiarum:0.0025834470)55:0.0025580206,(((JAC22080_D_sartori:0.0000022336,MZFC15824_D_robertmertensi:0.0000022336)99:0.0051696180,(KU215258_D_leali:0.0025738157,TG2641_D_joannae:0.0000022336)99:0.0025672086)48:0.0000022336,MHUA5883_D_microcephalus:0.0025622071)88:0.0025637227)38:0.0000022336)38:0.0000022336,CFBH18721_D_bipunctatus:0.0025570349)62:0.0025628558,((CFBH9376_D_nahdereri:0.0052975139,((KU215189_D_timbeba:0.0000022336,KU215190_D_timbeba:0.0000022336)100:0.0078626932,(MAR1807_D_norandinus:0.0026123211,(MHUA4801_D_bogerti:0.0000022336,MHUA5740_D_columbianus:0.0000022336)89:0.0000022336)98:0.0105718685)50:0.0000022336)63:0.0025410060,MNRJ38453_D_giesleri:0.0078801847)19:0.0000022336)12:0.0000022336)7:0.0000022336,((((CFBH14401_D_minutus:0.0000022336,CFBH19176_D_minutus:0.0000022336)78:0.0000022336,CFBH24153_D_minutus:0.0051877522)98:0.0051780366,(MAR832_D_stingi:0.0000022336,MRC737_D_stingi:0.0000022336)99:0.0051710089)54:0.0000022336,(JMsn_D_xapuriensis:0.0000022336,TG2812_D_xapuriensis:0.0025647445)99:0.0025833714)84:0.0025630212)25:0.0000022336,((((MAR467_D_virolinensis:0.0025680416,(MAR564_D_padreluna:0.0000022336,MRC728_D_garagoensis:0.0000022336)88:0.0000022336)99:0.0106763831,WES2031_D_yaracuyanus:0.0025630862)84:0.0000020354,(MHUA5439_D_subocularis:0.0000022336,TG2632_D_bokermanni:0.0025704752)94:0.0025858694)72:0.0025680036,TG2531_D_pauiniensis:0.0052411104)52:0.0026254585)73:0.0025786989,(MPEG27809_D_ozzyi:0.0000022336,MPEG27810_D_ozzyi:0.0000022336)99:0.0078872399)28:0.0000022336,(CFBHT2208_D_ruschii:0.0000022336,CFBHT2197_D_decipiens:0.0079157430)67:0.0000022336)55:0.0000022336,(((CFBH15203_D_berthalutzae:0.0029025791,MZUSPFIELD1337_D_berthalutzae:0.0000022336)99:0.0064899462,JF2320_D_decipiens:0.0000022336)86:0.0065190706,(((CFBH18782_D_decipiens:0.0000022336,CFBH26580_D_oliveirai:0.0025923490)58:0.0000029431,CFBH18799_D_oliveirai:0.0000022336)70:0.0000022336,(CFBH19472_D_haddadi:0.0000022336,FSFL1467_D_haddadi:0.0000022336)98:0.0025782296)57:0.0000022336)89:0.0025716847,AY843739_Pseudis_minuta_:0.0350427074);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t result_dendro_SIAH1.fasta.treefile -m "GTR{3.09967,14.1148,2.59548,0.0001,13.1485}+F{0.24858,0.263036,0.230323,0.25806}+I{0.574548}+R4{0.127418,0.273033,0.105392,0.326417,0.107069,2.98131,0.0855726,7.14719}" --length 397
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s aln_dendro_SIAH1.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s aln_dendro_SIAH1.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Jun 27 13:52:14 2024
+Total CPU time used: 183.918644 seconds (0h:3m:3s)
+Total wall-clock time used: 94.40357614 seconds (0h:1m:34s)
+

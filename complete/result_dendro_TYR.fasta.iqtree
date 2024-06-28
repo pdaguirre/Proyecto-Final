@@ -1,0 +1,154 @@
+IQ-TREE 2.2.0.7 COVID-edition built Aug 31 2022
+
+Input file name: aln_dendro_TYR.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 635302
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 5 sequences with 534 nucleotide sites
+Number of constant sites: 529 (= 99.0637% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 529 (= 99.0637% of all sites)
+Number of parsimony informative sites: 0
+Number of distinct site patterns: 13
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+R4
+
+Rate parameter R:
+
+  A-C: 0.0001
+  A-G: 7.5861
+  A-T: 1.3604
+  C-G: 0.0001
+  C-T: 0.0001
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2447
+  pi(C) = 0.2719
+  pi(G) = 0.233
+  pi(T) = 0.2504
+
+Rate matrix Q:
+
+  A    -1.836  2.367e-05     1.539    0.2965
+  C  2.13e-05  -6.339e-05  2.029e-05  2.18e-05
+  G     1.616  2.367e-05    -1.834     0.218
+  T    0.2898  2.367e-05    0.2029   -0.4927
+
+Model of rate heterogeneity: Invar+FreeRate with 4 categories
+Proportion of invariable sites: 0.5675
+Site proportion and rates:  (0.1346,0.2224) (0.1337,0.2302) (0.131,0.2559) (0.03316,27.32)
+
+ Category  Relative_rate  Proportion
+  0         0              0.5675
+  1         0.2224         0.1346
+  2         0.2302         0.1337
+  3         0.2559         0.131
+  4         27.32          0.03316
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -771.3706 (s.e. 12.6911)
+Unconstrained log-likelihood (without tree): -825.0245
+Number of free parameters (#branches + #model parameters): 22
+Akaike information criterion (AIC) score: 1586.7413
+Corrected Akaike information criterion (AICc) score: 1588.7217
+Bayesian information criterion (BIC) score: 1680.9100
+
+Total tree length (sum of branch lengths): 0.0143
+Sum of internal branch lengths: 0.0000 (0.0000% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0019) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'QCAZA15519_D_ebraccatus_SanLorenzo' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**QCAZA15519_D_ebraccatus_SanLorenzo
+|
+|            +**QCAZA27207_D_ebraccatus_
+|         +**| (0/33)
+|         |  +**QCAZA55530_D_ebraccatus_
++---------| (83.2/74)
+|         +**QCAZA66631_D_ebraccatus_
+|
++-----------------------------------------------------------QCAZA75540_D_gryllatus_LosRios
+
+Tree in newick format:
+
+(QCAZA15519_D_ebraccatus_SanLorenzo:0.0000022041,((QCAZA27207_D_ebraccatus_:0.0000011019,QCAZA55530_D_ebraccatus_:0.0000011019)0/33:0.0000011019,QCAZA66631_D_ebraccatus_:0.0000011019)83.2/74:0.0020497870,QCAZA75540_D_gryllatus_LosRios:0.0122614737);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -771.374436
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--QCAZA15519_D_ebraccatus_SanLorenzo
+|
+|            +--QCAZA27207_D_ebraccatus_
+|         +--| (40)
+|         |  +--QCAZA66631_D_ebraccatus_
++---------| (74)
+|         +--QCAZA55530_D_ebraccatus_
+|
++-----------------------------------------------------------QCAZA75540_D_gryllatus_LosRios
+
+
+Consensus tree in newick format: 
+
+(QCAZA15519_D_ebraccatus_SanLorenzo:0.0000028324,((QCAZA27207_D_ebraccatus_:0.0000028324,QCAZA66631_D_ebraccatus_:0.0000028324)40:0.0000028324,QCAZA55530_D_ebraccatus_:0.0000028324)74:0.0020528701,QCAZA75540_D_gryllatus_LosRios:0.0122664394);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t result_dendro_TYR.fasta.treefile -m "GTR{0.0001,7.58612,1.36036,0.0001,0.0001}+F{0.244721,0.27187,0.233032,0.250377}+I{0.567533}+R4{0.134606,0.222371,0.133663,0.23019,0.13104,0.255895,0.0331574,27.3172}" --length 534
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s aln_dendro_TYR.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s aln_dendro_TYR.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Jun 27 13:53:59 2024
+Total CPU time used: 1.938718 seconds (0h:0m:1s)
+Total wall-clock time used: 1.79370904 seconds (0h:0m:1s)
+

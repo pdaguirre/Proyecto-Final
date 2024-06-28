@@ -1,0 +1,214 @@
+IQ-TREE 2.2.0.7 COVID-edition built Aug 31 2022
+
+Input file name: aln_dendro_16S.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 488904
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used least square dating (LSD) please also cite: 
+
+Thu-Hien To, Matthieu Jung, Samantha Lycett, Olivier Gascuel (2016)
+Fast dating using least-squares criteria and algorithms. Syst. Biol. 65:82-97.
+https://doi.org/10.1093/sysbio/syv068
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 20 sequences with 544 nucleotide sites
+Number of constant sites: 424 (= 77.9412% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 424 (= 77.9412% of all sites)
+Number of parsimony informative sites: 43
+Number of distinct site patterns: 91
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+R4
+
+Rate parameter R:
+
+  A-C: 22.2661
+  A-G: 36.9133
+  A-T: 36.7087
+  C-G: 0.0001
+  C-T: 100.0000
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.294
+  pi(C) = 0.2354
+  pi(G) = 0.2107
+  pi(T) = 0.2599
+
+Rate matrix Q:
+
+  A   -0.8808    0.2047    0.3036    0.3725
+  C    0.2556     -1.27  8.225e-07     1.015
+  G    0.4237  9.192e-07   -0.4338   0.01015
+  T    0.4213    0.9192  0.008225    -1.349
+
+Model of rate heterogeneity: Invar+FreeRate with 4 categories
+Proportion of invariable sites: 0.3696
+Site proportion and rates:  (0.1628,0.3778) (0.1692,0.6456) (0.1615,0.9023) (0.137,4.991)
+
+ Category  Relative_rate  Proportion
+  0         0              0.3696
+  1         0.3778         0.1628
+  2         0.6456         0.1692
+  3         0.9023         0.1615
+  4         4.991          0.137
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1406.4324 (s.e. 46.3520)
+Unconstrained log-likelihood (without tree): -1861.9106
+Number of free parameters (#branches + #model parameters): 46
+Akaike information criterion (AIC) score: 2904.8648
+Corrected Akaike information criterion (AICc) score: 2913.5650
+Bayesian information criterion (BIC) score: 3102.6165
+
+Total tree length (sum of branch lengths): 0.4750
+Sum of internal branch lengths: 0.1606 (33.8080% of tree length)
+
+WARNING: 6 near-zero internal branches (<0.0018) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'AY843739_Pseudis_minuta_' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++-----------------------------------------------------------AY843739_Pseudis_minuta_
+|
+|         +----------------------JZ732_Xenohyla_eugenioi_voucher_
++---------| (81.8/71)
+|         |                      +**AY819367_D_ebraccatus_UTA_51789_NIC
+|         +----------------------| (80.8/89)
+|                                |          +--RDS790_D_ebraccatus_BELZ
+|                                |       +**| (0/51)
+|                                |       |  |  +**FJ542151_D_ebraccatus_Rinc_CR
+|                                |       |  +--| (98.3/98)
+|                                |       |     +**FJ542152_D_ebraccatus_Rinc_CR
+|                                |  +----| (93.6/93)
+|                                |  |    |     +**FJ542147_D_ebraccatus_Manz_CR
+|                                |  |    |  +**| (0/54)
+|                                |  |    |  |  +**FJ542149_D_ebraccatus_Manz_CR
+|                                |  |    +--| (88.8/91)
+|                                |  |       +--FJ542148_D_ebraccatus_Cahu_CR
+|                                +**| (0/35)
+|                                   +--MHUA4063_D_ebraccatus_voucher_Mac_COL
+|
+|                     +**QCAZA15519_D_ebraccatus_SanLorenzo
+|                  +**| (0/59)
+|                  |  |  +**QCAZA27207_D_ebraccatus_PtoQuito
+|                  |  +**| (0/25)
+|                  |     |  +**QCAZA55530_D_ebraccatus_Durango
+|                  |     +**| (0/81)
+|                  |        +**QCAZA66631_D_ebraccatus_20kmDurango
+|          +-------| (86.9/88)
+|          |       +**QCAZA78257_D_ebraccatus_Milpe1_
++----------| (81.6/82)
+           |    +**QCAZA75534_D_gryllatus_
+           +----| (82.9/85)
+                +**QCAZA75540_D_gryllatus_LosRios
+
+Tree in newick format:
+
+(AY843739_Pseudis_minuta_:0.1831677557,(JZ732_Xenohyla_eugenioi_voucher_:0.0707367324,(AY819367_D_ebraccatus_UTA_51789_NIC:0.0000010039,(((RDS790_D_ebraccatus_BELZ:0.0018882124,(FJ542151_D_ebraccatus_Rinc_CR:0.0000010039,FJ542152_D_ebraccatus_Rinc_CR:0.0000010039)98.3/98:0.0076118473)0/51:0.0000010039,((FJ542147_D_ebraccatus_Manz_CR:0.0000010039,FJ542149_D_ebraccatus_Manz_CR:0.0000010039)0/54:0.0000010039,FJ542148_D_ebraccatus_Cahu_CR:0.0018774887)88.8/91:0.0037950512)93.6/93:0.0164823344,MHUA4063_D_ebraccatus_voucher_Mac_COL:0.0070995212)0/35:0.0000021891)80.8/89:0.0726818503)81.8/71:0.0330643942,(((QCAZA15519_D_ebraccatus_SanLorenzo:0.0000010039,(QCAZA27207_D_ebraccatus_PtoQuito:0.0000010039,(QCAZA55530_D_ebraccatus_Durango:0.0000010039,QCAZA66631_D_ebraccatus_20kmDurango:0.0000010039)0/81:0.0000010039)0/25:0.0000010039)0/59:0.0000010039,QCAZA78257_D_ebraccatus_Milpe1_:0.0000010039)86.9/88:0.0245511791,(QCAZA75534_D_gryllatus_:0.0000010039,QCAZA75540_D_gryllatus_LosRios:0.0000010039)82.9/85:0.0174367714)81.6/82:0.0345477205);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -1406.440259
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------------------------------------------------------AY843739_Pseudis_minuta_
+|
+|         +----------------------JZ732_Xenohyla_eugenioi_voucher_
++---------| (71)
+|         |                      +--AY819367_D_ebraccatus_UTA_51789_NIC
+|         +----------------------| (89)
+|                                |          +--RDS790_D_ebraccatus_BELZ
+|                                |       +--| (51)
+|                                |       |  |        +**FJ542151_D_ebraccatus_Rinc_CR
+|                                |       |  |     +**|
+|                                |       |  |     |  +**FJ542197_D_ebraccatus_Uvit_CR
+|                                |       |  |  +--|
+|                                |       |  |  |  +**FJ542153_D_ebraccatus_Rinc_CR
+|                                |       |  +--| (98)
+|                                |       |     +--FJ542152_D_ebraccatus_Rinc_CR
+|                                |  +----| (93)
+|                                |  |    |        +**FJ542147_D_ebraccatus_Manz_CR
+|                                |  |    |     +--|
+|                                |  |    |     |  +**FJ542150_D_ebraccatus_Cahu_CR
+|                                |  |    |  +--| (54)
+|                                |  |    |  |  +--FJ542149_D_ebraccatus_Manz_CR
+|                                |  |    +--| (91)
+|                                |  |       +--FJ542148_D_ebraccatus_Cahu_CR
+|                                +--| (35)
+|                                   +--MHUA4063_D_ebraccatus_voucher_Mac_COL
+|
+|                        +--QCAZA15519_D_ebraccatus_SanLorenzo
+|                     +--| (38)
+|                     |  |  +--QCAZA55530_D_ebraccatus_Durango
+|                     |  +--| (81)
+|                     |     +--QCAZA66631_D_ebraccatus_20kmDurango
+|                  +--| (59)
+|                  |  +--QCAZA27207_D_ebraccatus_PtoQuito
+|          +-------| (88)
+|          |       +--QCAZA78257_D_ebraccatus_Milpe1_
++----------| (82)
+           |    +--QCAZA75534_D_gryllatus_
+           +----| (85)
+                +--QCAZA75540_D_gryllatus_LosRios
+
+
+Consensus tree in newick format: 
+
+(AY843739_Pseudis_minuta_:0.1832206416,(JZ732_Xenohyla_eugenioi_voucher_:0.0708168987,(AY819367_D_ebraccatus_UTA_51789_NIC:0.0000027986,(((RDS790_D_ebraccatus_BELZ:0.0018910844,(((FJ542151_D_ebraccatus_Rinc_CR:0.0000000000,FJ542197_D_ebraccatus_Uvit_CR:0.0000000000):0.0000000000,FJ542153_D_ebraccatus_Rinc_CR:0.0000000000):0.0000027986,FJ542152_D_ebraccatus_Rinc_CR:0.0000027986)98:0.0076194492)51:0.0000027986,(((FJ542147_D_ebraccatus_Manz_CR:0.0000000000,FJ542150_D_ebraccatus_Cahu_CR:0.0000000000):0.0000027986,FJ542149_D_ebraccatus_Manz_CR:0.0000027986)54:0.0000027986,FJ542148_D_ebraccatus_Cahu_CR:0.0018794697)91:0.0037986820)93:0.0164751144,MHUA4063_D_ebraccatus_voucher_Mac_COL:0.0071100336)35:0.0000028828)89:0.0725776936)71:0.0330362146,((((QCAZA15519_D_ebraccatus_SanLorenzo:0.0000027986,(QCAZA55530_D_ebraccatus_Durango:0.0000027986,QCAZA66631_D_ebraccatus_20kmDurango:0.0000027986)81:0.0000027986)38:0.0000027986,QCAZA27207_D_ebraccatus_PtoQuito:0.0000027986)59:0.0000027986,QCAZA78257_D_ebraccatus_Milpe1_:0.0000027986)88:0.0245499714,(QCAZA75534_D_gryllatus_:0.0000027986,QCAZA75540_D_gryllatus_LosRios:0.0000027986)85:0.0174380675)82:0.0345660323);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t result_dendro_16S.fasta.treefile -m "GTR{22.2661,36.9133,36.7087,0.0001,100}+F{0.293981,0.235446,0.210657,0.259916}+I{0.369554}+R4{0.16281,0.377805,0.16919,0.645634,0.161493,0.902308,0.136952,4.99107}" --length 544
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s aln_dendro_16S.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s aln_dendro_16S.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Jun 27 12:24:45 2024
+Total CPU time used: 49.791496 seconds (0h:0m:49s)
+Total wall-clock time used: 25.49923706 seconds (0h:0m:25s)
+

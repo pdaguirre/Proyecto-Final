@@ -1,0 +1,234 @@
+IQ-TREE 2.2.0.7 COVID-edition built Aug 31 2022
+
+Input file name: aln_dendro_ND1.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 842287
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 25 sequences with 1156 nucleotide sites
+Number of constant sites: 629 (= 54.4118% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 629 (= 54.4118% of all sites)
+Number of parsimony informative sites: 436
+Number of distinct site patterns: 538
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+R4
+
+Rate parameter R:
+
+  A-C: 3.5234
+  A-G: 19.4838
+  A-T: 2.9017
+  C-G: 1.1910
+  C-T: 18.2240
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2756
+  pi(C) = 0.2695
+  pi(G) = 0.1422
+  pi(T) = 0.3128
+
+Rate matrix Q:
+
+  A   -0.7974    0.1636    0.4773    0.1564
+  C    0.1673    -1.179   0.02918    0.9825
+  G    0.9253   0.05531    -1.034   0.05391
+  T    0.1378    0.8463    0.0245    -1.009
+
+Model of rate heterogeneity: Invar+FreeRate with 4 categories
+Proportion of invariable sites: 0.4065
+Site proportion and rates:  (0.1592,0.1847) (0.09893,0.8494) (0.2238,1.835) (0.1116,4.264)
+
+ Category  Relative_rate  Proportion
+  0         0              0.4065
+  1         0.1847         0.1592
+  2         0.8494         0.09893
+  3         1.835          0.2238
+  4         4.264          0.1116
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -7771.7355 (s.e. 206.4566)
+Unconstrained log-likelihood (without tree): -5923.5872
+Number of free parameters (#branches + #model parameters): 62
+Akaike information criterion (AIC) score: 15667.4711
+Corrected Akaike information criterion (AICc) score: 15674.6184
+Bayesian information criterion (BIC) score: 15980.7398
+
+Total tree length (sum of branch lengths): 2.6165
+Sum of internal branch lengths: 0.8876 (33.9249% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.0009) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'AY819499' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--AY819499
+|
+|                                          +---------------AY819503
+|                                       +--| (87.7/94)
+|                                       |  |       +--AY819551
+|                                       |  +-------| (99.5/100)
+|                                       |          +-----AY819552
+|                                    +--| (29/70)
+|                                    |  +----------------AY819550
+|                               +----| (93.2/95)
+|                               |    +------------------AY819505
+|                            +--| (87.8/90)
+|                            |  +--------------------AY819549
+|                         +--| (55.2/62)
+|                         |  |                     +**CORBIDI5217_D_
+|                         |  |     +---------------| (100/100)
+|                         |  |     |               +**CORBIDI5235_D_
+|                         |  +-----| (97.2/95)
+|                         |        |                +--CORBIDI6235_D_
+|                         |        |             +--| (93.5/87)
+|                         |        |             |  +--CORBIDI8861_D_
+|                         |        |          +--| (23.9/56)
+|                         |        |          |  +---CORBIDI8150_D_
+|                         |        +----------| (100/100)
+|                         |                   +-----QCAZ32555
+|                     +---| (91.5/94)
+|                     |   +--------------------------CORBIDI9614
+|                  +--| (68.3/77)
+|                  |  |           +-----QCAZ75534
+|                  |  +-----------| (100/100)
+|                  |              +--QCAZ40847_ebraccatus_Playon_deSanFrancisco
++------------------| (100/100)
+|                  +-----------------SMF88389
+|
+|        +**FJ542147
+|     +**| (0/40)
+|     |  |  +--FJ542148
+|     |  +**| (0/41)
+|     |     +--FJ542149
+|  +--| (95.1/96)
+|  |  +--FJ542150
++--| (79.4/72)
+   |     +**FJ542151
+   |  +**| (71.4/90)
+   |  |  +--FJ542152
+   +--| (99.6/95)
+      |  +--FJ542153
+      +--| (88.9/94)
+         +--FJ542197
+
+Tree in newick format:
+
+(AY819499:0.0067787668,((((((((AY819503:0.1603970764,(AY819551:0.0378298949,AY819552:0.0641099370)99.5/100:0.0859104312)87.7/94:0.0304089921,AY819550:0.1712352266)29/70:0.0277533821,AY819505:0.1887851992)93.2/95:0.0536853100,AY819549:0.2093577630)87.8/90:0.0326343290,((CORBIDI5217_D_:0.0000009586,CORBIDI5235_D_:0.0000009586)100/100:0.1641345274,(((CORBIDI6235_D_:0.0359454021,CORBIDI8861_D_:0.0249377154)93.5/87:0.0151812500,CORBIDI8150_D_:0.0455907237)23.9/56:0.0190837381,QCAZ32555:0.0650033437)100/100:0.1163929177)97.2/95:0.0666971080)55.2/62:0.0274298131,CORBIDI9614:0.2671797833)91.5/94:0.0461783017,(QCAZ75534:0.0644602858,QCAZ40847_ebraccatus_Playon_deSanFrancisco:0.0325455436)100/100:0.1249841967)68.3/77:0.0134679449,SMF88389:0.1843046237)100/100:0.1933907190,(((FJ542147:0.0000009586,(FJ542148:0.0008880595,FJ542149:0.0008819140)0/41:0.0000009586)0/40:0.0000023305,FJ542150:0.0008881985)95.1/96:0.0085229080,((FJ542151:0.0000019451,FJ542152:0.0008950650)71.4/90:0.0006283172,(FJ542153:0.0009005385,FJ542197:0.0017852843)88.9/94:0.0029581161)99.6/95:0.0171427724)79.4/72:0.0051821354);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -7771.744607
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--AY819499
+|
+|                                          +---------------AY819503
+|                                       +--| (94)
+|                                       |  |       +--AY819551
+|                                       |  +-------| (100)
+|                                       |          +-----AY819552
+|                                    +--| (70)
+|                                    |  +----------------AY819550
+|                               +----| (95)
+|                               |    +------------------AY819505
+|                            +--| (90)
+|                            |  +--------------------AY819549
+|                         +--| (62)
+|                         |  |                     +--CORBIDI5217_D_
+|                         |  |     +---------------| (100)
+|                         |  |     |               +--CORBIDI5235_D_
+|                         |  +-----| (95)
+|                         |        |                +--CORBIDI6235_D_
+|                         |        |             +--| (87)
+|                         |        |             |  +--CORBIDI8861_D_
+|                         |        |          +--| (56)
+|                         |        |          |  +---CORBIDI8150_D_
+|                         |        +----------| (100)
+|                         |                   +-----QCAZ32555
+|                     +---| (94)
+|                     |   +--------------------------CORBIDI9614
+|                  +--| (77)
+|                  |  |           +-----QCAZ75534
+|                  |  +-----------| (100)
+|                  |              +--QCAZ40847_ebraccatus_Playon_deSanFrancisco
++------------------| (100)
+|                  +-----------------SMF88389
+|
+|        +--FJ542147
+|     +--| (40)
+|     |  |  +--FJ542148
+|     |  +--| (41)
+|     |     +--FJ542149
+|  +--| (96)
+|  |  +--FJ542150
++--| (72)
+   |     +--FJ542151
+   |  +--| (90)
+   |  |  +--FJ542152
+   +--| (95)
+      |  +--FJ542153
+      +--| (94)
+         +--FJ542197
+
+
+Consensus tree in newick format: 
+
+(AY819499:0.0067728339,((((((((AY819503:0.1605496305,(AY819551:0.0378212801,AY819552:0.0641649352)100:0.0859017394)94:0.0304162955,AY819550:0.1713467671)70:0.0277396875,AY819505:0.1889272744)95:0.0537083994,AY819549:0.2094905030)90:0.0326129928,((CORBIDI5217_D_:0.0000026896,CORBIDI5235_D_:0.0000026896)100:0.1641919955,(((CORBIDI6235_D_:0.0359568795,CORBIDI8861_D_:0.0249468640)87:0.0151897599,CORBIDI8150_D_:0.0456025605)56:0.0191302212,QCAZ32555:0.0649297355)100:0.1164298282)95:0.0666504212)62:0.0275765149,CORBIDI9614:0.2672653291)94:0.0461206156,(QCAZ75534:0.0644479301,QCAZ40847_ebraccatus_Playon_deSanFrancisco:0.0325772670)100:0.1250028244)77:0.0134083687,SMF88389:0.1843751943)100:0.1934625088,(((FJ542147:0.0000026896,(FJ542148:0.0008888127,FJ542149:0.0008826600)41:0.0000026896)40:0.0000026896,FJ542150:0.0008889467)96:0.0085236693,((FJ542151:0.0000026896,FJ542152:0.0008958567)90:0.0006281683,(FJ542153:0.0009013004,FJ542197:0.0017854489)94:0.0029583110)95:0.0171446371)72:0.0051855333);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t result_dendro_ND1.fasta.treefile -m "GTR{3.52338,19.4838,2.9017,1.19101,18.224}+F{0.275555,0.269466,0.142159,0.31282}+I{0.406492}+R4{0.159157,0.184671,0.0989294,0.84939,0.22382,1.83511,0.111601,4.26381}" --length 1156
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s aln_dendro_ND1.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s aln_dendro_ND1.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Jun 27 13:50:29 2024
+Total CPU time used: 18.43228 seconds (0h:0m:18s)
+Total wall-clock time used: 18.39242315 seconds (0h:0m:18s)
+

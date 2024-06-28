@@ -1,0 +1,50 @@
+
+LEAST-SQUARE METHODS TO ESTIMATE RATES AND DATES - v.2.3 
+
+
+Input files:
+  i                                               Input tree file : result_dendro_SIAH1.fasta.timetree.subst
+  d                                               Input date file : No
+  p                                                Partition file : No
+  g                                       File contains outgroups : result_dendro_SIAH1.fasta.timetree.outgroup
+  G                       Remove outgroups in the estimating tree : No
+Output file:
+  o                                                  Output file  : result_dendro_SIAH1.fasta.timetree
+Parameters:
+  a                                                     Root date : -37.8
+  z                                                     Tips date : 0
+  c                                              With constraints : Yes
+  t                                      Lower bound for the rate : 1e-10
+  v                                                With variances : Yes, use variances based on input branch lengths
+  b                              Adjusted parameter for variances : To estimate
+  r                                             Estimate the root : On the branch given by the outgroups
+  w                                       Given substitution rate : No
+  n                                             Multiple data set : No
+  f                                  Compute confidence intervals : Yes, sampling 100 times
+  q                  Standard deviation of lognormal relaxed clock: 0.2 (for computing confidence intervals)
+  s                                               Sequence length : 397
+  e                                          Exclude outlier tips : No
+  u                Min internal branch length of time scaled tree : 0
+  U                Min external branch length of time scaled tree : 0
+  l                        Collapsed internal branch length limit : 0.00125945
+  D                                            Output date format : Based on input date format
+  E  Estimate rates for external and internal branches separately : No
+
+  h to print Help 
+  y to accept or type a letter to change an option (x = Exit) 
+Tree 1 
+Parameter to adjust variances was set to 0.0251889 (settable via option -b)
+Minimum branch length of time scaled tree (settable via option -u and -U): 0
+
+*WARNINGS:
+- 51.6854% internal branches were collapsed.
+
+*RESULTS:
+- Dating results:
+ rate 0.000558781, tMRCA -37.8 , objective function 0.0173737
+- Results with confidence intervals:
+ rate 0.000558781 [0.000338865; 0.000843649], tMRCA -37.8 [-37.8; -37.8], objective function 0.0173737
+
+*********************************************************
+
+TOTAL ELAPSED TIME: 0.071575 seconds
