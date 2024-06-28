@@ -1,0 +1,500 @@
+   41  cd /Users/admin/Run_07/porechop/S5-027_BC68.fastq 
+   42  cd /Users/admin/Run_07/porechop/medaka/S5-027
+   43  artic minion --threads 4 --read-file /Users/admin/Run_07/porechop/S5-027_BC68.fastq  --skip-nanopolish --scheme-directory /Users/admin/artic-ncov2019/primer_schemes  nCoV-2019/NEB_VarSkip S5-027 --scheme-verion 2a --medaka --medaka-model r941_min_fast_g303 S5-027 S5-027
+   44  artic minion --threads 4 --read-file /Users/admin/Run_07/porechop/S5-027_BC68.fastq  --skip-nanopolish --scheme-directory /Users/admin/artic-ncov2019/primer_schemes  nCoV-2019/NEB_VarSkip S5-027 --scheme-version 2a --medaka --medaka-model r941_min_fast_g303 S5-027 S5-027
+   45  artic minion --threads 4 --read-file /Users/admin/Run_07/porechop/S5-027_BC68.fastq  --skip-nanopolish --scheme-directory /Users/admin/artic-ncov2019/primer_schemes  nCoV-2019/NEB_VarSkip S5-027 --scheme-version 2a --medaka --medaka-model r941_min_fast_g303
+   46  artic minion --threads 4 --read-file /Users/admin/Run_07/porechop/S5-027_BC68.fastq  --skip-nanopolish --scheme-directory /Users/admin/artic-ncov2019/primer_schemes  nCoV-2019/NEB_VarSkip S5-027  --medaka --medaka-model r941_min_fast_g303
+   47  artic minion --medaka --normalise 200 --threads 2 --skip-nanopolish --scheme-directory /Users/admin/artic-ncov2019/primer_schemes  --medaka-model r941_min_fast_g303 --read-file /Users/admin/Run_07/porechop/S5-027_BC68.fastq  nCoV-2019/V1 S5-027
+   48  conda activate artic-ncov2019
+   49  artic minion --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer_schemes --read-file /Users/admin/Bioinformatica/run_07/guppy_demultiplex/barcode68/run_7_barcode68.fastq  --fast5-directory /Users/admin/Run_07/covid19/20220607_1202_MN38514_FAS48994_d9136836/fast5  --sequencing-summary /Users/admin/Run_07/covid19/20220607_1202_MN38514_FAS48994_d9136836/sequencing_summary_FAS48994_aa5b03ff.txt  nCoV-2019/V3 BC68
+   50  cd artic-ncov2019
+   51  ls
+   52  git clone https://github.com/artic-network/artic-ncov2019.git
+   53  cd artic-ncov2019
+   54  conda env remove -n artic-ncov2019
+   55  ls
+   56  artic minion --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer_schemes --read-file /Users/admin/Bioinformatica/run_07/guppy_demultiplex/barcode68/run_7_barcode68.fastq  --fast5-directory /Users/admin/Run_07/covid19/20220607_1202_MN38514_FAS48994_d9136836/fast5  --sequencing-summary /Users/admin/Run_07/covid19/20220607_1202_MN38514_FAS48994_d9136836/sequencing_summary_FAS48994_aa5b03ff.txt  nCoV-2019/V3 BC68
+   57  artic minion --normalise 200 --threads 4 --scheme-directory ~/artic-ncov2019/primer_schemes --read-file /Users/admin/Bioinformatica/run_07/guppy_demultiplex/barcode68/run_7_barcode68.fastq  --fast5-directory /Users/admin/Run_07/covid19/20220607_1202_MN38514_FAS48994_d9136836/fast5  --sequencing-summary /Users/admin/Run_07/covid19/20220607_1202_MN38514_FAS48994_d9136836/sequencing_summary_FAS48994_aa5b03ff.txt --skip-nanopolish  nCoV-2019/V3 BC68
+   58  cd
+   59  cd Bioinformatica/run_07/
+   60  mkdir medaka
+   61  mkdir BC68
+   62  cd BC68/
+   63  artic minion --medaka --normalise 200 --threads 2 --skip-nanopolish --scheme-directory /Users/admin/artic-ncov2019/primer_schemes  --medaka-model r941_min_fast_g303 --read-file /Users/admin/Bioinformatica/run_07/guppy_demultiplex/barcode68/run_7_barcode68.fastq  nCoV-2019/V1 BC68
+   64  cd ..
+   65  cd /Users/admin/Desktop/PRUEBA\ IQTREE 
+   66  ./iqtree2 -nt AUTO -p particiones -b 200 -m MFP -alrt 1000 -safe
+   67  ./iqtree2 -nt AUTO -p particiones -b 200 -m MFP -alrt 1000 -safe
+   68  ./iqtree2 -nt AUTO -p particiones -b 200 -m MFP -alrt 1000 -safe
+   69  ./iqtree2 -nt AUTO -p particiones -b 200 -m MFP -alrt 1000 -safe
+   70  ./iqtree2 -nt AUTO -p particiones -b 200 -m MFP -alrt 1000 -safe
+   71  ./iqtree2 -nt AUTO -p particiones -b 200 -m MFP -alrt 1000 -safe
+   72  cd /Users/admin/Desktop/PRUEBA\ IQTREE 
+   73  ./iqtree2 -nt AUTO -p particiones -b 200 -m MFP -alrt 1000 -safe
+   74  ./iqtree2 -nt AUTO -p particiones -b 200 -m MFP -alrt 1000 -safe
+   75  cd /Users/admin/Desktop/PRUEBA\ IQTREE 
+   76  ./iqtree2 -nt AUTO -p particiones -b 200 -m MFP -alrt 1000 -safe
+   77  /Users/admin/Desktop/Ma.\ Emilia\ Gudiño/Prueba\ 8-sept-2022-UF 
+   78  cd /Users/admin/Desktop/Ma.\ Emilia\ Gudiño/Prueba\ 8-sept-2022-UF 
+   79  /Users/admin/Desktop/Ma.\ Emilia\ Gudiño/Prueba\ 8-sept-2022/fused_2022.nex /Users/admin/Desktop/Ma.\ Emilia\ Gudiño/Prueba\ 8-sept-2022/iqtree2 /Users/admin/Desktop/Ma.\ Emilia\ Gudiño/Prueba\ 8-sept-2022/particiones.nex
+   80  ./iqtree2 -nt AUTO -p particiones.nex -bb 1000 -m MFP -alrt 1000 -safe -s fused_2022.nex
+   81  cd /Users/admin/Desktop/Jhael/Pristimantis\ chiplaensis/27_oct_2022 
+   82  ./iqtree2 -nt AUTO -p particiones -b 200 -m MFP -alrt 1000 -safe -s fused.nex
+   83  ./iqtree2 -nt AUTO -p particiones.nex -sfused.nex -b 200 -m MFP -alrt 1000 -safe
+   84  ./iqtree2 -nt AUTO -p particiones.nex -s fused.nex  -b 200 -m MFP -alrt 1000 -safe
+   85  cd /Users/admin/Desktop/Jhael/Pristimantis\ versicolor/Prueba_filogenia_dic2022 
+   86  ./iqtree2 -nt AUTO -p particiones -bb 1000 -m MFP -alrt 1000 -safe -s fuseddici.nex
+   87  ./iqtree2 -nt AUTO -p particiones -bb 1000 -m MFP -alrt 1000 -safe -s fuseddici.nex
+   88  ./iqtree2 -nt AUTO -p particiones -bb 1000 -m MFP -alrt 1000 -safe -s fuseddici.nex
+   89  ./iqtree2 -nt AUTO -p particiones -bb 1000 -m MFP -alrt 1000 -safe -s fuseddici.nex
+   90  cd /Users/admin/Desktop/Jhael/Pristimantis\ versicolor/Prueba_filogenia_dic2022 
+   91  ./iqtree2 -nt AUTO -p particiones -bb 1000 -m MFP -alrt 1000 -safe -s fuseddici.nex
+   92  ./iqtree2 -nt AUTO -p particiones -bb 1000 -m MFP -alrt 1000 -safe -s fuseddici.nex
+   93  ./iqtree2 -nt AUTO -p particiones -bb 1000 -m MFP -alrt 1000 -safe -s fuseddici.nex
+   94  ./iqtree2 -nt AUTO -p particiones.nex -bb 1000 -m MFP -alrt 1000 -safe -s fuseddici.nex
+   95  cd /Users/admin/Desktop/Jhael/Pristimantis\ versicolor/Final_dec_2022 ./iqtree2 -nt AUTO -p particiones.nex -b 2000 -m MFP -alrt 1000 -safe -s fused.nex
+   96  cd /Users/admin/Desktop/Jhael/Pristimantis\ versicolor/Final_dec_2022 
+   97  ./iqtree2 -nt AUTO -p particiones.nex -b 2000 -m MFP -alrt 1000 -safe -s fused.nex
+   98  ./iqtree2 -nt AUTO -p particiones.nex -b 200 -m MFP -alrt 1000 -safe -s fused.nex
+   99  ./iqtree2 -nt AUTO -p particiones.nex -b 200 -m MFP -alrt 1000 -safe -s fused.nex
+  100  cd /Users/admin/Desktop/Jhael/Pristimantis\ versicolor/Filogenia_Enero_2023 
+  101  ./iqtree2 -nt AUTO -p particiones.nex -b 200 -m MFP -alrt 1000 -safe -s fused.nex
+  102  cd /Users/admin/Desktop/Jhael/Jos 
+  103  cd /Users/admin/Desktop/Jhael/Jos 
+  104  cd /Users/admin/Desktop/Jhael/Jos 
+  105  CD /Users/admin/Desktop/Jhael/Jos 
+  106  cd /Users/admin/Desktop/Jhael/Jos 
+  107  ./iqtree2 -nt AUTO -p particiones.nex -bb 1000 -m MFP -alrt 1000 -safe -s fusedmaster.nex
+  108  cd /Users/admin/Desktop/Jhael/Jos 
+  109  ./iqtree2 -nt AUTO -p particiones.nex -s fusedmaster -b 200 -m MFP -alrt 1000 -safe
+  110  cd /Users/admin/Desktop/Jhael/Jos 
+  111  ./iqtree2 -nt AUTO -p particiones.nex -s fusedmaster -bb 1000 -m MFP -alrt 1000 -safe
+  112  ./iqtree2 -s dendropsophus.nex -nt AUTO -m GTR+R+I -sp partition.nex -bb 1000 -alrt 1000 -safe -o AY843739_Pseudis_minuta_ --prefix gryllatus --date datefile -nstop 1000 -pers 0.2 -u 0 --date-tip 0 -safe -nt auto --date-ci 95 -o DL001_Pseudis_minuta_ -redo
+  113  Seed:    526128 (Using SPRNG - Scalable Parallel Random Number Generator)
+  114  ./iqtree2 -s dendropsophus.nex -nt AUTO -m GTR+R+I -sp partition.nex -bb 1000 -alrt 1000 -safe -o AY843739_Pseudis_minuta_ --prefix gryllatus --date datefile -nstop 1000 -pers 0.2 -u 0 --date-tip 0 -safe -nt auto --date-ci 95 -o DL001_Pseudis_minuta_ -redo
+  115  Seed:    526128 (Using SPRNG - Scalable Parallel Random Number Generator)
+  116  cd /Users/admin/Downloads/
+  117  ./iqtree2
+  118  ./iqtree2
+  119  cd /Users/admin/Desktop/Dome\ Aguirre/
+  120  ./iqtree2
+  121  ./iqtree2
+  122  -l
+  123  ls
+  124  ls -l
+  125  ls-le
+  126  ls -le
+  127  drwxr-xr-x chmod ug=rw,o=r /Users/admin/Desktop/Dome\ Aguirre/iqtree2 
+  128  chmod ug=rw,o=r /Users/admin/Desktop/Dome\ Aguirre/iqtree2 
+  129  ls -l
+  130  ./iqtree2 -s dendropsophus.nex -nt AUTO -m GTR+R+I -sp partition.nex -bb 1000 -alrt 1000 -safe -o AY843739_Pseudis_minuta_ --prefix gryllatus --date datefile -nstop 1000 -pers 0.2 -u 0 --date-tip 0 -safe -nt auto --date-ci 95 -o DL001_Pseudis_minuta_ -redo
+  131  chmod ug=rw,o=r /Users/admin/Desktop/Dome\ Aguirre/iqtree2 
+  132  chmod ug=drw,o=r/Users/admin/Desktop/Dome\ Aguirre/iqtree2 
+  133  ./iqtree2 -s dendropsophus.nex -nt AUTO -m GTR+R+I -sp/Users/admin/Desktop/Dome\ Aguirre/Mesquite\ matrix/partition.txt -bb 1000 -alrt 1000 -safe -o AY843739_Pseudis_minuta_ --prefix gryllatus --date
+  134  ./iqtree2 -s dendropsophus.nex -nt AUTO -m GTR+R+I -sp partition.nex -bb 1000 -alrt 1000 -safe -o AY843739_Pseudis_minuta_ --prefix gryllatus --date datefile -nstop 1000 -pers 0.2 -u 0 --date-tip 0 -safe -nt auto --date-ci 95 -o DL001_Pseudis_minuta_ -redo
+  135  chmod 755 *//Users/admin/Desktop/Dome\ Aguirre/iqtree2 
+  136  chmod 755 */Users/admin/Desktop/Dome\ Aguirre/iqtree2 
+  137  chmod 755 /Users/admin/Desktop/Dome\ Aguirre/iqtree2 
+  138  ls -l
+  139  cd
+  140  cd
+  141  pwd
+  142  pwd
+  143  cd admin
+  144  cd Users
+  145  cd Users/
+  146  pwd
+  147  cd..
+  148  cd ..
+  149  cd ..
+  150  cd
+  151  ls
+  152  ls -F
+  153  cd Desktop/
+  154  pwd
+  155  git clone https://github.com/CSB-book/CSB.git
+  156  cd CSB
+  157  pwd
+  158  ls -F
+  159  cd unix/
+  160  ls -F
+  161  cd sandbox/
+  162  ls -F
+  163  cd ../data/
+  164  ls -F
+  165  cd -r ../data .
+  166  cd ..
+  167  -r data/
+  168  pwd
+  169  cd sandbox/
+  170  clear
+  171  pwd
+  172  ls -F
+  173  cd Desktop/
+  174  cd CSB/
+  175  ls -F
+  176  cd unix/
+  177  ls -F
+  178  cd sandbox/
+  179  cd ..
+  180  cd data/
+  181  ls -F
+  182  cp ../data/Buzzard2015_about.txt .
+  183  pwd
+  184  ls -F
+  185  cd Desktop/
+  186  cd CSB/
+  187  ls -F
+  188  cd unix/
+  189  ls -F
+  190  cd sandbox/
+  191  cp ../data/Buzzard2015_about.txt .
+  192  ls -F
+  193  mv Buzzard2015_about.txt Buzzard2015_about2.txt 
+  194  cp -r ../data .
+  195  ls -F
+  196  mv Buzzard2015_about2.txt ../data/
+  197  mv ../data/Buzzard2015_about2.txt ../data/Buzzard2015_about_new.txt 
+  198  ls -l
+  199  touch new_file.txt
+  200  ls -l
+  201  rm -i new_file.txt 
+  202  mkdir -p d1/d2/d3
+  203  rm -r d1
+  204  pwd
+  205  cd ..
+  206  pwd
+  207  cd data/
+  208  less Marra2014_data.fasta 
+  209  cat Marra2014_data.fasta Buzzard2015_about.txt 
+  210  wc Gesquiere2011_about.txt 
+  211  wc -l Marra2014_about.txt 
+  212  sort Gesquiere2011_data.csv 
+  213  sort -n Gesquiere2011_data.csv 
+  214  pwd
+  215  ls -F
+  216  cd Desktop/
+  217  git clonegit clone https://github.com/CSB-book/CSB.git
+  218  pwd
+  219  ls -F
+  220  cd Desktop/
+  221  git clone https://github.com/CSB-book/CSB.git
+  222  cd CSB/
+  223  LS -F
+  224  cd unix/
+  225  ls -F
+  226  cd sandbox/
+  227  cp ~/CSB/unix/data/Buzzard2015_about.txt ~/CSB/unix/
+  228  cd ..
+  229  ls -F
+  230  cd sandbox/
+  231  cp ../data/Buzzard2015_about.txt .
+  232  mv Buzzard2015_about.txt Buzzard2015_about2.txt
+  233  cp -r ../data/ .
+  234  mv Buzzard2015_about2.txt ../data/
+  235  ls -F
+  236  cd ..
+  237  cd data/
+  238  ls -F
+  239  cd ..
+  240  cd sandbox/
+  241  mv ../data/Buzzard2015_about2.txt ../data/Buzzard2015_about_new.txt
+  242  ls -l
+  243  touch new_file.txt
+  244  ls -l
+  245  rm -i new_file.txt 
+  246  mkdir -p d1/d2/d3
+  247  rm -r d1
+  248  pwd
+  249  cd ..
+  250  cd data/
+  251  less Marra2014_data.fasta 
+  252  cat Marra2014_about.txt Gesquiere2011_about.txt Buzzard2015_about.txt 
+  253  wc Gesquiere2011_about.txt 
+  254  wc -l Marra2014_about.txt 
+  255  sort Gesquiere2011_data.csv 
+  256  sort -n Gesquiere2011_data.csv 
+  257  file Marra2014_about.txt 
+  258  head -n 2 Gesquiere2011_data.csv 
+  259  tail -n 2 Gesquiere2011_data.csv 
+  260  tail -n +2 Gesquiere2011_data.csv 
+  261  pwd
+  262  wc -l Marra2014_data.fasta 
+  263  touch ../sandbox/toremove.txt
+  264  ls -F ../sandbox/
+  265  rm -i ../sandbox/toremove.txt 
+  266  pwd
+  267  cd ~/CSB/unix/sandbox
+  268  cd ..
+  269  ls -F
+  270  cd sandbox/
+  271  echo "My first line" > test.txt
+  272  cat test.txt 
+  273  echo "My second line" >> test.txt 
+  274  cat test.txt 
+  275  ls ../data/Saavedra2013 > filelist.txt
+  276  cat filelist.txt 
+  277  wc -l filelist.txt 
+  278  rm filelist.txt 
+  279  ls ../data/Saavedra2013 | wc -l
+  280  pwd
+  281  cd ..
+  282  cd data/
+  283  head -n 1 Pacifici2013_data.csv 
+  284  head -n 1 Pacifici2013_data.csv | cut -d ";" -f 1
+  285  head -n 1 Pacifici2013_data.csv | cut -d ";" -f 1-4
+  286  cut -d ";" -f 2 Pacifici2013_data.csv  | head -n 5 
+  287  cut -d ";" -f 2,8 Pacifici2013_data.csv | head -n 3
+  288  cut -d ";" -f 2 Pacifici2013_data.csv | tail -n +2 | head -n 5
+  289  cut -d ";" -f 2 Pacifici2013_data.csv | tail -n +2 | sort | uniq
+  290  cut -d ";" -f 5 Pacifici2013_data.csv | tail -n +2 | sort 
+  291  cut -d ";" -f 3 Pacifici2013_data.csv | tail -n +2 | wc
+  292  cut -d ";" -f 3 Pacifici2013_data.csv | tail -n +2 | wc -l
+  293  cut -d ";" -f 3 Pacifici2013_data.csv | tail -n +2 
+  294  cut -d ";" -f 3 Pacifici2013_data.csv | tail -n +2 | sort | uniq | wc -l 
+  295  history > DomenicaAguirre.txt
+  296  pwd
+  297  pwd
+  298  cd Desktop/
+  299  cd CSB/
+  300  cd ~/CSB/unix/data/miRNA
+  301  cd unix/data/miRNA/
+  302  wc -l *.fasta
+  303  head -n 2 pp*
+  304  file *.???
+  305  cd ~/CSB/unix/sandbox/
+  306  cd ..
+  307  cd ..
+  308  cd sandbox/
+  309  ls -F
+  310  echo "aaaabbb" | tr "a" "b"
+  311  echo "123456789" | tr 1-5 0
+  312  echo "ACtGGcAaTT" | tr actg ACTG
+  313  echo "ACtGGcAaTT" | tr [:lower:] [:upper:]
+  314  echo "aabbccddee" | tr a-c 1-3
+  315  echo "aaaaabbbb" | tr -d a
+  316  echo "aaaaabbbb" | tr -s a
+  317  cat inputfile.csv | tr " " "\t" > outputfile.csv
+  318  pwd
+  319  cd Desktop/
+  320  cd CSB/
+  321  cd unix/sandbox/
+  322  tail -n +2 ../data/Pacifici2013_data.csv
+  323  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ";"
+  324   -f 2-6
+  325  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ";" -f 2-6
+  326  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr ";" " "
+  327  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr ";" " " | sort -r -n -k 6
+  328  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr ";" " " | sort -r -n -k 6 > BodyM.csv
+  329  cd ~/CSB/unix/data/miRNA
+  330  cd ..
+  331  cd data/miRNA/
+  332  wc -l *.fasta
+  333  head -n 2 pp*
+  334  file *.???
+  335  cd ../..
+  336  cd sandbox/
+  337  wc -l BodyM.csv
+  338  grep Vombatidae BodyM.csv
+  339  grep -c Vombatidae BodyM.csv
+  340  grep Bos BodyM.csv 
+  341  grep -w Bos BodyM.csv 
+  342  grep -i Bos BodyM.csv
+  343  grep -B 2 -A 2 "Gorilla gorilla" BodyM.csv
+  344  grep -n "Gorilla gorilla" BodyM.csv
+  345  grep Gorilla BodyM.csv | grep -v gorilla
+  346  grep -w "Gorilla\|Pan" BodyM.csv
+  347  grep -r "Gorilla" data
+  348  cd ..
+  349  ls -F
+  350  grep -r "Gorilla" data
+  351  cd sandbox/
+  352  find ../data/
+  353  find ../data | wc -l
+  354  find ../data -name "n30.txt"
+  355  find ../data -iname "*about*"
+  356  find ../data -name "*.txt" | wc -l
+  357  find ../data -maxdepth 1 -name "*.txt" | wc -l
+  358  find ../data -not -name "*about*" | wc -l
+  359  find ../data -type d
+  360  ls -F
+  361  cd ..
+  362  pwd
+  363  cd ..
+  364  find Dalziel
+  365  find ../data -name "Dalziel"
+  366  find -name "Dalziel"
+  367  cd unix/sandbox/
+  368  find ../../CSB -name "Dalziel"
+  369  Navigate to CSB/unix/sandbox. Without navigating to a different location, find a CSV file that contains Dalziel in its file name and is located
+  370  within the CSB directory. Copy this file to the Unix sandbox
+  371  cp $(find CSB -name "*Dalziel*.csv")
+  372  cp $(find /Users/admin/Desktop/CSB -name "*Dalziel*.csv")
+  373  find /Users/admin/Desktop/CSB -name "*Dalziel*.csv"
+  374  find /Users/admin/Desktop/CSB -name "*Dalziel*.csv"
+  375  cp $(find /Users/admin/Desktop/CSB/python/data/Dalziel2016_data.csv) .
+  376  ls -F
+  377  head Dalziel2016_data.csv 
+  378  cut -d ',' -f X Dalziel2016_data.csv | tail -n +2 | sort-u
+  379   cut -d ',' -f X Dalziel2016_data.csv | tail -n +2 | sort -u
+  380  cut -d ',' -f 3  Dalziel2016_data.csv | tail -n +2 | sort -u
+  381  grep "Washington, DC" Dalziel2016_data.csv | cut -d ',' -f 4 | sort -nr | head -n 1
+  382  grep "Washington, DC" Dalziel2016_data.csv | cut -d ',' -f 4 | sort -n | tail -n 1
+  383  echo $(grep "Washington, DC" Dalziel2016_data.csv | cut -d ',' -f 4 | sort -n | tail -n 1) 
+  384  grep "Washington, DC" Dalziel2016_data.csv | awk -F ',' '{print $4}' | sort -n | tail -n 1
+  385  grep Washington, DC Dalziel2016_data.csv 
+  386  grep "Washington, DC" Dalziel2016_data.csv
+  387  grep Washington Dalziel2016_data.csv | cut -d ',' -f 4 | sort -n | tail -n 1
+  388   grep Washington Dalziel2016_data.csv
+  389  grep "WASHINGTON" Dalziel2016_data.csv
+  390  grep "WASHINGTON" Dalziel2016_data.csv | cut -d ',' -f 4 | sort -n | head -n 1
+  391  grep "WASHINGTON" Dalziel2016_data.csv | cut -d ',' -f 4 | sort -n | tail -n 1
+  392  grep -w "$(cut -d ',' -f 4 archivo.csv | sort -nr | head -n 1)" Dalziel2016_data.csv 
+  393  cut -d ',' -f 4 Dalziel2016_data.csv | sort -n | tail -n 1
+  394  grep -w "$(cut -d ',' -f 4 Dalziel2016_data.csv | sort -n | tail -n 1)" Dalziel2016_data.csv
+  395  pwd
+  396  cd ..
+  397  cd data/miRNA/
+  398  ls
+  399  for file in ggo_miR.fasta hsa_miR.fasta; do head -n 2 $file; done
+  400  for file in *.fasta; do head -n 2 $file; done
+  401   for miR in miR-208a miR-564 miR-3170; do grep $miR -A1 *.fasta > $miR.fasta; done
+  402  head -n 5 miR-564.fasta
+  403  history > Tarea2_DomenicaAguirre.txt
+  404  shh dcuser@ec2-44-201-123-55.compute-1.amazonaws.com
+  405  ssh dcuser@ec2-44-201-123-55.compute-1.amazonaws.com
+  406  ssh dcuser@ec2-44-201-123-55.compute-1.amazonaws.com
+  407  ssh dcuser@ec2-44-201-123-55.compute-1.amazonaws.com
+  408  shh dcuser@ec2-12-345-678-90.compute-1.amazonaws.com 
+  409  clear
+  410  ssh dcuser@ec2-12-345-678-90.compute-1.amazonaws.com 
+  411  clear
+  412  clear
+  413  mkdir ~/Desktop/fastqc_html/trimmed
+  414  $ scp dcuser@ec2-34-203-203-131.compute-1.amazonaws.com:~/dc_workshop/data/trimmed_fastq/*.html ~/Desktop/fastqc_html/trimmed
+  415  scp dcuser@ec2-34-203-203-131.compute-1.amazonaws.com:~/dc_workshop/data/trimmed_fastq/*.html ~/Desktop/fastqc_html/trimmed
+  416  pwp
+  417  pwd
+  418  cd Desktop/
+  419  pwd
+  420      brew tap brewsci/bio
+  421      brew install mrbayes
+  422  brew install curl
+  423  brew install mrbayes --with-open-mpi
+  424  pwd
+  425  cd Desktop/
+  426  ls -f
+  427  git git config --global user.name "Acaicedo856"
+  428  git config --global user.name "pdaguirre"
+  429  git config --global user.email "domeaguitorres@gmail.com"
+  430  git config --global core.autocrlf true
+  431  git config --global init.defaultBranch main
+  432  git config --gobal edit
+  433  git config --global --edit
+  434  git config --global user.name "pdaguirre"
+  435  git config --global user.email "domeaguitorres@gmail.com"
+  436  git config --global core.autocrlf true
+  437  git config --global init.defaultBranch main
+  438  ssh -T -p 443 git@ssh.github.com
+  439  nano ~/.ssh/config
+  440  pwd
+  441  nano ~/.ssh/config
+  442  ssh-keygen -t ed25519 -C "domeaguitorres@gmail.com"
+  443  cat ~/.ssh/id_ed25519.pub
+  444  ls ~/.ssh
+  445  cd config
+  446  ñs
+  447  ls
+  448  cat DENDRO.pub 
+  449  ssh tcouvreur@core.cluster.france-bioinformatique.fr 
+  450  ssh tcouvreur@core.cluster.france-bioinformatique.fr
+  451  pwd
+  452  cd Desktop/
+  453  ssh tcouvreur@core.cluster.france-bioinformatique.fr 
+  454  ssh dechavez@hoffman2.idre.ucla.edu
+  455  pwd
+  456  cd Desktop/
+  457  ./muscle5.1.macos_arm64 -in $Dendropsophus_16S.fas -out muscle_$Dendropsophus_16S -maxiters 1 -diags
+  458  ./muscle5.1.macos_arm64 -in $Dendropsophus_16S.fas -out musscle_$Dendropsophus_16S -maxiters 1 -diags
+  459  ./iqtree2 -s Dendropsophus_16S -m GTR+R+I -p partition.txt -bb 1000 -alrt 1000 -safe -o Pseudis_minuta_AY843739 --date-tip 0 -safe -nt auto -pre Dendropsophus --date-ci 100 --date-root -37.8
+  460  ./iqtree2 -s Dendropsophus_16S
+  461  ./iqtree2 -s dendro_16S
+  462  ./muscle5.1.macos_arm64 -in $dendro_16S.fas -out musscle_$dendro_16S -maxiters 1 -diags
+  463  unzip /Users/admin/Desktop/muscle-5.1.0.zip 
+  464  cd muscle-5.1.0
+  465  ls -F
+  466  cd src/
+  467  ls -F
+  468  ./muscle5.1.macos_arm64 
+  469  cd ..
+  470  pwd
+  471  cd ..
+  472  ./muscle5.1.macos_arm64 
+  473  sudo ./muscle5.1.macos_arm64 
+  474  ls ./muscle5.1.macos_arm64 
+  475  muscle5.1.macos_arm64 
+  476  muscle5.1.macos_arm64 -help 
+  477  head muscle5.1.macos_arm64 
+  478  unzip muscle5.1.macos_arm64 
+  479  /Users/admin/Desktop/muscle5.1\ \(1\).macos_intel64 /Users/admin/Desktop/muscle5.1.macos_intel64 
+  480  /Users/admin/Desktop/muscle5.1.macos_intel64 
+  481  chmod 777 /Users/admin/Desktop/muscle5.1.macos_arm64  
+  482  /Users/admin/Desktop/muscle5.1.macos_arm64  
+  483  ls -lh /Users/admin/Desktop/muscle5.1.macos_intel64 
+  484  chmod 777 /Users/admin/Desktop/muscle5.1.macos_intel64 
+  485  ls -lh /Users/admin/Desktop/muscle5.1.macos_intel64 
+  486  ./Users/admin/Desktop/muscle5.1.macos_intel64 
+  487  /Users/admin/Desktop/muscle5.1.macos_intel64 
+  488  /Users/admin/Desktop/muscle5.1.macos_intel64 -help
+  489  /Users/admin/Desktop/muscle5.1.macos_intel64 --help
+  490  /Users/admin/Desktop/muscle5.1.macos_intel64 
+  491  /Users/admin/Desktop/iqtree2 
+  492  chmod 777 /Users/admin/Desktop/iqtree2 
+  493  /Users/admin/Desktop/iqtree2 
+  494  ./iqtree2 -s dendro.aln-fasta
+  495  ./iqtree2 -s dendro.aln-fasta -m GTR+R+I -p partition.txt -bb 1000 -alrt 1000 -safe -o Pseudis_minuta_AY843739 --date-tip 0 -safe -nt auto -pre Dendropsophus --date-ci 100 --date-root -37.8
+  496  ./iqtree2 -s dendro.aln-fasta -m GTR+R+I -bb 1000 -alrt 1000 -safe -o Pseudis_minuta_AY843739 --date-tip 0 -safe -nt auto -pre Dendropsophus --date-ci 100 --date-root -37.8
+  497  ./iqtree2 -s dendro.aln-fasta -m GTR+R+I -bb 1000 -alrt 1000 -safe -o AY843739_Pseudis_minuta_ --date-tip 0 -safe -nt auto -pre Dendropsophus --date-ci 100 --date-root -37.8
+  498  ./iqtree2 -s dendro.aln-fasta -m GTR+R+I -bb 1000 -alrt 1000 -safe -o AY843739_Pseudis_minuta_ --date-tip 0 -safe -nt auto -pre Dendropsophus --date-ci 100 --date-root -37.8
+  499  ./iqtree2 -s dendro.aln-fasta -m GTR+R+I -bb 1000 -alrt 1000 -safe -o AY843739_Pseudis_minuta_ --date-tip 0 -safe -nt auto -pre Dendropsophus --date-ci 100 --date-root -37.8 -redo
+  500  history > bioinfo.txt
+  501  pwd
+  502  cd Desktop/
+  503  cd mafft-mac/
+  504  ls -F
+  505  ./mafft.bat 
+  506  cd ..
+  507  pwd
+  508  cd mafft-mac/
+  509  mafft  dendro_16S.fas > dendro_16S_aln.fas
+  510  %mafft --auto  dendro_16S.fas > dendro_16S_aln.fas
+  511  mafft --auto  dendro_16S.fas > dendro_16S_aln.fas
+  512  cd ..
+  513  mafft --auto  dendro_16S.fas > dendro_16S_aln.fas
+  514  ./iqtree2 -s dendro.aln-fasta -m GTR+R+I -bb 1000 -alrt 1000 -safe -o AY843739_Pseudis_minuta_ --date-tip 0 -safe -nt auto -pre Dendropsophus --date-ci 100 --date-root -37.8 -redo
+  515  ./iqtree2 -s dendro.aln-fasta -m GTR+R+I -bb 1000 -alrt 1000 -safe -o AY843739_Pseudis_minuta_ --date-tip 0 -safe -nt auto -pre Dendropsophus_16S --date-ci 100 --date-root -37.8 -redo
+  516  nano script.sh
+  517  nano script.sh
+  518  nano script.sh
+  519  nano script.sh
+  520  bash script.sh 
+  521  nano script.sh
+  522  nano script.sh
+  523  bash script.sh 
+  524  nano script.sh
+  525  pwd
+  526  nano script.sh
+  527  bash script.sh 
+  528  nano script.sh
+  529  chmod +x script.sh
+  530  ./script.sh dendro_16S.fas dendro_COI.fas dendro_CYTB.fas dendro_ND1.fas dendro_SIAH1.fas dendro_RHO.fas dendro_TYR.fas dendro_POMC.fas 
+  531  nano script.sh
+  532  chmod +x script.sh
+  533  ./script.sh dendro_16S.fas dendro_COI.fas dendro_CYTB.fas dendro_ND1.fas dendro_SIAH1.fas dendro_RHO.fas dendro_TYR.fas dendro_POMC.fas 
+  534  nano script.sh
+  535  chmod +x script.sh
+  536  ./script.sh dendro_16S.fas dendro_COI.fas dendro_CYTB.fas dendro_ND1.fas dendro_SIAH1.fas dendro_RHO.fas dendro_TYR.fas dendro_POMC.fas 
+  537  chmod +x script.sh
+  538  ./script.sh dendro_16S.fas
+  539  nano script.sh
+  540  history > bioinfo_project.txt
