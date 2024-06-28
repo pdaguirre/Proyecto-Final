@@ -48,7 +48,7 @@ For the script to work correctly, you need to have MAFFT and IQ-TREE programs in
 6. 6. Or... To give permissions for the script to execute, first use the command:
 `chmod +× script.sh`
 7. Then, name the fasta files that the script will use and it will start running the program: 
-`./script.sh dendro_16S.fasta dendro_COI.fasta dendro_CYTB.fasta dendro_ND1.fasta dendro_SIAH1.fasta dendro_RHO.fasta dendro_TYR.fasta dendro_POMC.fasta`
+`./script.sh dendro_16S.fasta dendro_COI.fasta dendro_CYTB.fasta dendro_ND1.fasta dendro_SIAH1.fasta dendro_RHO.fasta dendro_TYR.fasta`
 
 And that's it!
 
