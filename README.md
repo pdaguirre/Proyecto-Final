@@ -64,7 +64,8 @@ We expect to obtain alignments of our raw sequence data from 7 genes in `.fasta`
 
 ## Authors
 
-Doménica Aguirre and Emilia Luzuriaga
+Doménica Aguirre and Emilia Luzuriaga.
+
 This script was created as the final project for Bioinformatics, PUCE, 2024
 
 ## Acknowledgements
